@@ -1,0 +1,225 @@
+.about 
+    display: none
+
+    .container
+        display: auto
+        height: 45.5vh
+        width: 100%
+        @extend %bottom_radius
+        @include scroll_bar(#ccc,$primary-color-ifood,2px)
+
+        &-top 
+            height: 45.5vh
+            width: 49.8vw
+            background-size: cover
+            background-repeat: no-repeat
+
+            .leftbox
+                width: 50%
+                height: 100%
+                background-color: rgba(0,0,0,0.753)
+
+                h1
+                    font-family: $font-main
+                    color: $primary-color-ifood
+                    font-weight: 900
+                    padding: 2vh 2vw 2vh 2vw
+
+                p
+                    height: 30vh
+                    width: 23vw
+                    margin: 1vh 0vw 0vh 1vw
+                    padding: 0vh 2vw 0vh 0vw
+                    
+                    color: white
+                    font-family: $font-second
+                    font-weight: 900
+                    @include scroll_bar(#ccc,$primary-color-ifood,2px)
+        
+        &-middle
+            height: 45.5vh
+            width: 100%
+            background-color: #F5F6F7
+
+            .topbox
+                height: 50%
+                width: 100%
+                background-size: cover
+                background-image: none
+
+            .bottombox 
+                height: 50% 
+                width: 100%
+                display: flex
+
+                .profile
+                    width: 100% * 2
+                    text-align: center
+                    display: flex
+
+                    img
+                        margin-top: 4.5vh
+                        height: 15vh
+                        width: 9vw
+                        object-fit: contain
+                        margin-left: 3vw
+
+                    .infosprofile
+                        font-family: $font-second
+                        font-weight: 300
+                        color: #B0B0B1
+                        width: 100%
+                        text-align: center
+                        align-items: center
+                        justify-content: center
+                        margin-top: 9vh
+                        
+                        h1
+                            font-size: 0.9rem
+                            width: 11vw
+
+                        h2
+                            font-size: 0.8rem
+                            width: 11vw
+                            text-align: center
+
+                        h4
+                            font-size: 0.7rem
+                            height: 2.5vh
+                            width: 7vw
+                            text-align: center
+                            background-color: #FFFFFF
+                            border-radius: 1vh
+                            border: 1px solid #ccc
+                            padding-bottom: 0.3vh
+                            margin-left: 2vw
+
+                
+
+        &-bottom
+            height: 45.5vh
+            width: 100%
+
+            .header
+                height: 11vh
+                width: 100%
+                background-color: #FFECDA
+                border-bottom: 2px solid $primary-color-ifood
+
+                h1
+                    color: #BA5B27
+                    text-align: center 
+                    font-family: $font-main
+                    font-weight: 500
+                    padding-top: 2.5vh
+
+            main 
+                height: 26.5vh
+                width: 100%
+
+                form 
+                    width: 100%
+                    height: 100%
+                    color: #535353
+                    font-family: $font-second
+                    font-weight: 900
+                    align-items: center 
+                    justify-content: center
+                    padding-left: 2vw
+
+                    .headerform 
+                        height: 33%
+                        padding-top: 4.5vh
+
+                        
+                        .textform
+                            margin-left: 7vw
+
+                        .form-control
+                            margin-left: 0.5vw
+                            border-radius: 1vh
+                            border: 2px solid #E7E7E9
+                            outline: none
+                            padding-left: 0.5vw
+
+                        .agendPassport
+                            width: 3vw
+
+                    .mainform 
+                        height: 17% 
+                        padding-left: 6vw
+
+                        .textform
+                            margin-left: 1vw
+
+                        .agendDate
+                            width: 5.5vw
+                            text-align: center
+                        
+                        .agendHour
+                            width: 5vw
+                            text-align: center
+
+                        .agendTel
+                            width: 7vw
+                            text-align: center
+
+                        .form-control
+                            margin-left: 0.5vw
+                            padding-left: 0.5vw
+                            padding-top: 0.3vh
+                            border-radius: 1vh
+                            border: 2px solid #E7E7E9
+                            outline: none
+
+                    .footerform 
+                        height: 20%
+
+                        .textform
+                            margin-left: 13vw
+
+                        .form-control
+                            margin-left: 0.5vw
+                            border-radius: 1vh
+                            border: 2px solid #E7E7E9
+                            outline: none
+
+                    button 
+                        background-color: $primary-color-ifood
+                        height: 5vh 
+                        width: 10vw 
+                        padding: 0.5vh
+                        border: none 
+                        color: #fff
+                        font-family: $font-main 
+                        font-size: 1.3rem
+                        border-radius: 1vh
+                        margin-left: 18vw
+                        margin-top: 1vh
+                        border: 2px solid $primary-color-ifood
+
+                        &:hover 
+                            background-color: #fff
+                            color: $primary-color-ifood
+                            cursor: pointer
+
+            footer 
+                height: 8vh
+                width: 100%
+                background-color: $primary-color-ifood
+                margin-top: 1px solid $primary-color-ifood
+
+                h1
+                    border-top: 3px solid $primary-color-ifood
+                    background-color: white
+                    width: 30vw
+                    height: 8vh
+                    margin-left: 9vw
+                    padding-top: 1.5vh
+                    color: #BC5518
+                    text-align: center
+                    cursor: pointer
+
+
+
+

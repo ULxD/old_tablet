@@ -1,0 +1,88 @@
+%text_longer
+    overflow: hidden
+    text-overflow: ellipsis 
+
+%button_hover
+    transform: scale(1.05)
+    transition: all ease-out .5s
+    border-color: $white-color
+    background-color: white
+    color: $primary-color-ifood
+
+%top_radius
+    border-top-left-radius: 1.2vh
+    border-top-right-radius: 1.2vh
+
+
+%bottom_radius
+    border-bottom-left-radius: 1.3vh
+    border-bottom-right-radius: 1.3vh
+
+%btn-primary
+    width: 10vw
+    height: 3vh 
+    border-radius: 1vh
+    border: 1px solid black
+    text-align: center 
+    font-family: $font-main
+    padding-top: 0.5vh
+    margin: 1vh 0.5vw 0vh 0.5vw
+    color: black
+    font-weight: 300
+
+@mixin scroll_bar($bkgcolor,$color,$px)
+    overflow: scroll
+    overflow-x: hidden
+    
+    &::-webkit-scrollbar
+        width: $px
+        background-color: $bkgcolor
+        border-bottom-right-radius: 5vh
+    
+
+    &::-webkit-scrollbar-thumb
+        background-color: $color
+        border-top-right-radius: 4vh
+        border-bottom-right-radius: 10vh
+    
+@mixin button_circle($radius,$fonts,$h,$w)
+    width: $w
+    height: $h
+    border-radius: $radius
+    font-size: $fonts
+    text-align: center
+    color: white
+
+@mixin hover_scale($scale)
+    transform: scale($scale)
+    cursor: pointer
+
+
+@mixin sm() 
+  @media(max-width: 576px) 
+    @content
+  
+
+
+@mixin md() 
+  @media(max-width: 1280px) 
+    @content
+
+
+@mixin lg() 
+  @media(max-width: 1366px) 
+    @content
+
+
+
+@mixin xl() 
+  @media(max-width: 1440px) 
+    @content
+  
+
+
+@mixin xxl() 
+  @media(max-width: 1680px) 
+    @content
+  
+

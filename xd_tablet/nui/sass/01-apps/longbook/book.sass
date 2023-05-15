@@ -1,0 +1,259 @@
+.book 
+    background: #C6A282
+    height: 45.6vh
+    width: 100%
+    @extend %bottom_radius
+    @include scroll_bar(#ccc,#cead8f,5px)
+    display: none
+
+    .btn
+        @include button_circle(3vh,1.7rem,5vh,5vh)
+        padding-top: 1.4vh
+        background-color: #704E2F
+        margin: 17vh 1vw 0vh 1vw
+        cursor: pointer
+
+        
+    &-border
+        background: red
+        height: 92%
+        width: 90%
+        margin: 2vh auto
+        border-radius: 1.5vh
+        padding-top: 1.5vh
+
+    &-page 
+        background: white 
+        height: 99%
+        width: 96%
+        margin: 0 auto
+        display: flex
+
+        &-first
+            width: 49%
+            height: 100%
+            border-left: 5px solid #cccccc98
+            border-right: 5px solid #cccccc98
+
+        &-left 
+            width: 49%
+            height: 100%
+            border-right: 5px solid #cccccc98
+
+        &-right 
+            width: 49%
+            height: 100%1
+            border-left: 5px solid #cccccc98
+
+            .fa-heart
+                font-size: 4rem 
+                color: #e93c1e
+            
+            .fa-home-heart 
+                font-size: 4rem
+                color: #59a650
+
+            .fa-tv-retro
+                font-size: 4rem
+                color: #ff928f
+        
+
+
+.swiper-button-next, .swiper-button-prev
+    color: #ffffff
+
+.swiper-button-next:after, .swiper-button-prev:after
+    font-size: 1.8rem
+    margin-top: 8vh
+
+    @include xl()
+        font-size: 1.3rem
+
+.swiper-slide
+    
+
+
+    h1
+        font-family: $font-second
+        font-size: 1.5rem
+        color: #838282
+        margin: 2vh 0vw 0vh 0vw
+        
+        @include xl()
+            font-size: 1.15rem
+
+        @include md()
+            font-size: 1rem
+
+    p 
+        font-family: $font-main
+        font-size: 1.3rem
+        margin: 0vh 3vw
+        color: #838282
+
+        @include xl()
+            font-size: 1rem
+
+    .title-observ 
+        margin-bottom: 2vh
+        
+        @include md()
+            font-size: 1rem
+
+    .observ 
+        font-size: 1rem
+        margin-bottom: 1vh
+
+        @include xl()
+            font-size: 0.8rem
+
+        @include md()
+            font-size: 0.65rem
+
+    .observ-low 
+        font-size: 0.78rem 
+
+        @include xl()
+            font-size: 0.62rem
+
+        @include md()
+            font-size: 0.55rem
+
+    .warning 
+        margin-bottom: 5vh
+
+        @include xl()
+            font-size: 1rem
+    
+    .warning-low
+        margin-bottom: 5vh
+        font-size: 1rem
+
+        @include xl()
+            font-size: 0.85rem
+
+        @include md()
+            font-size: 0.7rem
+
+        &-upper
+            text-transform: uppercase
+            font-weight: 900
+
+    .tv-p
+        font-family: $font-main
+        font-size: 1.15rem
+        margin: 1vh 3vw 0 3vw
+        color: #838282
+
+        @include xl()
+            font-size: 1rem
+
+        @include md()
+            font-size: 0.85rem
+
+    .tv-s 
+        font-family: $font-main
+        font-size: 0.9rem
+        font-weight: bolder
+        margin: 1vh 3vw
+        color: #414040
+
+        @include xl()
+            font-size: 0.8rem
+
+        @include md()
+            font-size: 0.7rem
+
+    .picWat
+        height: 15vh 
+        width: 45vw
+        object-fit: contain
+        margin: 1vh
+
+    .table 
+        margin: 1vh 1vw 0vh 0vw
+        width: 19vw
+        height: 30vh
+        background: #ffffff
+
+        
+
+        &-tr-main 
+            display: flex
+            color: #ffffff
+            font-family: $font-second
+            font-size: 1.2rem
+            font-weight: 100
+            justify-content: space-around
+
+            @include md()
+                font-size: 0.9rem
+
+        &-td-main 
+            margin: 0vh 0.1vw
+            background: #393857
+            text-align: center
+            width: 4vw
+
+        &-tr
+            display: flex
+            color: #ffffff
+            font-family: $font-second
+            font-size: 1.2rem
+            font-weight: 100
+            justify-content: space-around
+        
+            
+
+        &-td
+            margin: 0.1vh 0.1vw
+            background: #9e9ea0
+            text-align: center
+            width: 4vw
+            font-size: 1rem
+            font-weight: 900
+            color: #ffffff
+
+            @include xl()
+                font-size: 0.8rem
+
+            @include md()
+                font-size: 0.6rem
+
+        .crime
+            width: 12vw
+            
+
+
+                
+
+
+    ul 
+        h2
+            font-family: $font-main
+            font-size: 1rem
+            text-align: center 
+
+        
+        li 
+            font-family: $font-main
+            font-size: 1rem
+            margin: 0vh 3vw
+            color: #414141
+            font-weight: 600
+
+            @include xl()
+                font-size: 0.9rem
+    
+        .style-houses
+            font-family: $font-main
+            font-size: 0.90rem
+            margin: 0vh 3vw
+            color: #414141
+            font-weight: 600
+            margin: 0.3vh 2vw
+
+            @include xl()
+                font-size: 0.8rem
+
+            

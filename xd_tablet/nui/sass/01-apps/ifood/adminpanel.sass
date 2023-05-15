@@ -1,0 +1,700 @@
+.adminpanel
+    display: auto
+
+    .adminbox 
+        width: 100%
+        height: 45.5vh
+        background-color: #FFF3D4
+        display: none
+
+        ul 
+            display: flex 
+            flex-wrap: wrap
+            width: 100% 
+            height: 100%
+            justify-content: center 
+            align-items: center
+            
+            li 
+                height: 17vh 
+                width: 14vw
+                border: 2px solid #BC5518
+                background-color: #FFF8E8
+                margin: 1vh 0.5vw 1vh 0.5vw
+                border-radius: 2vh
+
+                .fas 
+                    font-size: 4rem
+                    color: $primary-color-ifood
+                    margin-left: 4.9vw
+                    margin-top: 2vh
+
+                p 
+                    font-size: 1.3rem
+                    font-family: $font-main
+                    width: 100% 
+                    text-align: center
+                    margin-top: 1vh
+                    font-weight: 500
+    .adminrequest
+        width: 100%
+        height: 45.5vh
+        background-color: #FFF3D4
+        @extend %bottom_radius
+        display: none
+
+
+        header 
+            display: flex 
+            width: 100%
+            padding: 1vh 0vw 1vh 0vw
+            border-bottom: 2px solid $brown-color
+            
+
+            .fas 
+                color: $primary-color-ifood
+                font-size: 2.3rem
+                margin-left: 1vw
+
+            p 
+                font-size: 1.7rem 
+                font-family: $font-main
+                margin-left: 20vw
+                color: #000000
+
+
+        .list
+            @include scroll_bar(#ccc, #ffffff,3px)
+            
+        .container
+            margin: 1vh 0
+            width: 100% 
+            height: 39vh
+            padding: 0 1vw
+            @extend %bottom_radius
+            @include scroll_bar(#ccc, #ffffff,3px)
+
+            
+
+            .request-box
+                width: 100% 
+                height: 73%
+                padding: 1vh 1vw
+                margin: 1vh 0
+                background-color: #FFF8E8
+                border-radius: 1vh
+                
+                &-flex 
+                    display: flex
+
+                
+                &-block
+                    width: 48%
+                    justify-content: space-around
+                    background-color: #ffffff
+                    align-items: column
+                    padding: 1vh
+                    margin: 0 1vw
+                    height: 19vh
+                    border-radius: 1vh
+                    @include xl()
+                        height: 20vh
+
+                    h2 
+                        margin-top: 1vh
+                        ont-family: $font-main
+                        color: #676767
+                        font-weight: 400
+                        font-size: 1.4rem
+                        width: 100%
+                        text-align: center
+                        letter-spacing: 0.03vw
+
+                    h1 
+                        font-family: $font-main 
+                        color: $gray-color
+                        font-weight: 400
+                        font-size: 1.2rem
+                        margin: 1vh 0.2vw 1vh 0.2vw
+                        @include lg()
+                            font-size: 1rem
+
+                        span
+                            color: #4d4b4b
+
+
+                    .itemadd
+                        display: flex 
+                        box-shadow: #ccc 0 1px
+                        height: 3vh
+                        padding-top: 0.8vh
+
+                        .quantidade 
+                            width: 10% 
+                            text-align: center
+
+                        .itemname 
+                            width: 75% 
+                            text-align: center
+
+                        .price 
+                            width: 15%
+                            text-align: center
+                            color: green
+                        
+                .finalbox
+                    height: 25%
+
+                    h2
+                        margin-top: 1vh
+                        ont-family: $font-main
+                        color: #000000
+                        font-weight: 400
+                        font-size: 1.5rem
+                        width: 100%
+                        text-align: center
+                        letter-spacing: 0.03vw
+                        @include md()
+                            font-size: 1.1rem
+
+                    .flex-buttons
+                        display: flex
+
+                        .btn 
+                            @extend %btn-primary
+                            @include xl()
+                                font-size: 0.9rem
+                            @include md()
+                                font-size: 0.8rem
+
+                        .acept 
+                            background-color: #BDECB6
+                            border-color: #BDECB6
+
+                        .decline 
+                            background-color: #E28983
+                            border-color: #E28983
+
+                        .ready 
+                            background-color: #ADD8E6
+                            border-color: #ADD8E6
+
+                        .checked 
+                            background-color: #77DD77
+                            border-color: #77DD77
+
+    .adminschedule
+        width: 100%
+        height: 45.7vh
+        padding: 1vh 0
+        background-color: #FFF3D4
+        @extend %bottom_radius
+        display: none
+
+        header 
+            width: 100%
+            padding: 1vh 0vw 1vh 0vw
+            border-bottom: 2px solid $brown-color
+            
+
+            .fas 
+                color: $primary-color-ifood
+                font-size: 2.3rem
+                margin-left: 23vw
+
+            p 
+                font-size: 1.7rem 
+                font-family: $font-main
+                margin-left: 20vw
+                color: #000000
+                font-weight: 300
+
+        .schedule-box
+            margin: 1vh 0
+            width: 100% 
+            height: 35vh
+            padding: 1vh 1vw
+            @extend %bottom_radius
+            @include scroll_bar(#ccc, #ffffff,3px)
+
+            ul 
+
+                li 
+                    background-color: #ffffff
+                    height: 23vh
+                    border: 1px solid #888888
+                    border-radius: 1vh
+                    width: 100%
+                    display: flex
+                    margin: 2vh 0
+                    @include xl()
+                        height: 30.5vh
+                    @include lg()
+                        height: 28vh
+
+                    &.acept 
+                        background-color: #ddffd4
+
+                    .left-box
+                        margin: 2vh 0vw 0vh 1vw
+                        border-radius: 1vh
+                        width: 74%
+                        height: 85%
+                        background-color: #DFDFDF
+                        @include xl()
+                            height: 90%
+                            margin-top: 1vh
+
+                        .top-box
+                            display: flex 
+                            font-family: $font-second
+                            color: #868686
+                            font-size: 0.7rem
+                            margin: 2vh 0vw 0vh 1vw
+                            width: 100%
+
+                            @include xl()
+                                flex-wrap: wrap
+                                margin-top: 0.4vh
+
+                            .name 
+                                width: 40%
+                                @include xl()
+                                    width: 55%
+                                    font-size: 1.3rem
+
+                            .passaport 
+                                width: 25%
+                                @include xl()
+                                    font-size: 1.3rem
+                                
+
+                            .phone
+                                width: 35%
+                                @include xl()
+                                    width: 40%
+                                    font-size: 1.3rem
+
+                            span 
+                                color: black
+
+                        .bottom-box
+                            background-color: #F4F4F4
+                            width: 98%
+                            height: 60%
+                            margin: 1.5vh 0vw 0vh 0.3vw
+                            border-radius: 1vh
+                            border: 1px solid #88888871
+                            font-family: $font-second
+                            padding: 0 0.2vw
+                            @include xl()
+                                height: 55%
+
+                            h1 
+                                font-size: 1.5rem
+                                text-align: center
+                                @include xl()
+                                    font-size: 1.1rem
+
+                            h3 
+                                font-size: 1.1rem
+                                @include xl()
+                                    font-size: 1rem
+
+                    .right-box
+                        margin: 2vh 0vw 0vh 1vw
+                        border-radius: 1vh
+                        width: 20%
+                        height: 85%
+                        display: block
+                        padding-top: 5vh
+
+                        button
+                            @extend %btn-primary
+                            width: 100%
+                            height: 3.5vh
+                            padding-top: 0.1vh
+                            font-size: 1.2rem
+                            font-family: $font-main
+                            border: none
+                            font-weight: 300
+
+                        .acept 
+                            background-color: #BDECB6
+
+                        .decline 
+                            background-color: #E28983
+
+                        .ready 
+                            background-color: #ADD8E6
+
+    .adminteam
+        width: 100%
+        height: 45.5vh
+        background-color: #FFF3D4
+        width: 100%
+        height: 45.7vh
+        padding: 1vh 0
+        background-color: #FFF3D4
+        @extend %bottom_radius
+        display: none
+
+        .team-box
+            width: 100% 
+            height: 100%
+            padding: 0.3vh 1vw
+            @extend %bottom_radius
+            @include scroll_bar(#ccc, #ffffff,3px)
+
+            ul
+                width: 100%
+                height: 100% 
+                display: flex
+                flex-wrap: wrap
+
+                li 
+                    background-color: #FFFFFF
+                    border-radius: 1vh
+                    border: 1px solid #888888
+                    height: 42vh
+                    width: 30%
+                    margin: 0.7vh 0.78vw
+
+                    @include xxl()
+                        width: 45%
+
+                    .top-box
+                        background-color: #F3F3F3
+                        border: 2px solid #9D9D9D
+                        border-radius: 1vh
+                        height: 30%
+                        width: 95%
+                        margin: 1vh 0vw 1vh 0.3vw
+                        display: flex
+
+                        img
+                            width: 30%
+                            height: 60%
+                            border-radius: 1vh
+                            margin: 2.5vh 0.5vw
+                            border: 2px solid #BAB8B8
+
+                        .infos
+                            font-family: $font-second
+                            font-size: 0.7rem
+                            margin-top: 2.5vh
+                            color: #868686
+                            font-weight: 400
+                            @include lg()
+                                    font-size: 0.6rem
+
+                            .name 
+                                font-size: 1rem
+                                @include lg()
+                                    font-size: 0.9rem
+
+                            span
+                                color: black
+
+                    .middle-box
+                        background-color: #F3F3F3
+                        border: 2px solid #9D9D9D
+                        border-radius: 1vh
+                        height: 45%
+                        width: 95%
+                        margin: 0.5vh 0vw 0.5vh 0.3vw
+                        @include scroll_bar(#ccc, #ffffff,0px)
+
+                        ul 
+                            height: auto
+                            min-height: 100%
+                            width: 100%
+
+                            .warning 
+                                margin: 0.7vh 0.3vw
+                                width: 97%
+                                height: 60%
+                                background-color: #F3F3F3
+
+                                h1
+                                    font-family: $font-second
+                                    text-align: center
+                                    font-size: 1.2rem
+
+                                p
+                                    border-radius: 0.4vh
+                                    font-family: $font-second
+                                    color: black
+                                    font-weight: 600
+                                    margin: 0 0.2vw
+                                    padding: 0 0 0 0.3vw
+                                    height: 6vh
+                                    color: #979797
+                                    background-color: #E7E7E7
+                                    @include md()
+                                        font-size: 0.9rem
+                    
+                    .bottom-box
+                        height: 5.5vh
+
+                        .countdown-warning
+                            display: flex
+
+                            .warning 
+                                margin: 0 auto
+                                display: flex
+
+                            h1 
+                                font-family: $font-second 
+                                font-size: 1.2rem
+                                width: 5vw
+                                text-align: center
+
+                            span 
+                                border: 2px solid #888888
+                                border-radius: 0.8vh
+                                width: 1.8vw
+                                height: 2.5vh
+                                font-family: $font-main
+                                text-align: center 
+                                font-weight: 300
+                                margin-top: 0.2vh
+                                @include md()
+                                    height: 3vh
+
+                        .btn-section 
+                            width: 100%
+                            margin: 0.5vh 0vw 0vh 2vw
+
+                            @include xxl()
+                                margin-left: 5vw
+                            
+                            button
+                                @extend %btn-primary
+                                width: 5vw
+                                height: 2vh
+                                margin: 0
+                                padding-top: 0.1vh
+                                border: none
+                                font-weight: 300
+                                font-size: 0.95rem
+                                @include lg()
+                                    height: 3vh
+                        
+                            .decline
+                                background-color: $red-color
+
+                            .warning 
+                                background-color: $yellow-color
+
+    .adminprofile
+        width: 100%
+        height: 45.5vh
+        background-color: #FFF3D4
+        display: none
+        @extend %bottom_radius
+
+        header 
+            width: 100%
+            padding: 1vh 0vw 1vh 0vw
+            border-bottom: 2px solid $brown-color
+            
+            
+
+            .fas 
+                color: $primary-color-ifood
+                font-size: 2.3rem
+                margin-left: 24vw
+
+            p 
+                width: 100%
+                font-size: 1.7rem 
+                font-family: $font-main
+                text-align: center
+                color: #000000
+                font-weight: 300
+
+        .section-profile
+            height: 30vh
+            width: 100%
+            display: flex
+            justify-content: center
+
+            &-card
+                height: 33vh
+                width: 15vw
+                background: #FFFBF3
+                margin: 1.5vh 0vw 0vh 2vw
+                border-radius: 1vh
+                border: 2px solid #FEF1D4
+
+                h1
+                    color: #868686
+                    font-family: $font-second
+                    font-weight: 900
+                    text-align: center
+
+                h2 
+                    color: #868686
+                    font-family: $font-second
+                    font-weight: 900
+                    text-align: center
+                    font-size:1.2rem
+                
+                .name
+                    margin-top: 2vh
+
+                input
+                    height: 3vh
+                    width: 12vw
+                    border-radius: 1vh
+                    text-align: center
+                    outline: none
+                    border: 2px solid #DBDBDB
+                    margin-left: 1vw
+
+                .btn 
+                    @extend %btn-primary
+                    background: #b9b5b5
+                    border: 1px solid #DBDBDB
+                    color: #FFFFFF
+                    font-family: $font-second
+                    font-size: 1.4rem
+                    height: 4vh
+                    padding-top: 0.05vh
+                    margin: 2vh 0vw 0vh 2vw
+                    transition: background 0.5s
+
+                    &:hover 
+                        background: #FFFFFF
+                        border-color: #b9b5b5
+                        color: #b9b5b5
+
+    .adminavaibles
+        width: 100%
+        height: 45.7vh
+        padding: 1vh 0
+        background-color: #FFF3D4
+        @extend %bottom_radius
+        display: none
+
+        header 
+            width: 100%
+            padding: 1vh 0vw 1vh 0vw
+            border-bottom: 2px solid $brown-color
+            
+
+            .fas 
+                color: $primary-color-ifood
+                font-size: 2.3rem
+                margin-left: 22vw
+
+            p 
+                font-size: 1.7rem 
+                font-family: $font-main
+                margin-left: 20vw
+                color: #000000
+                font-weight: 300
+
+        .avaible-box
+            margin: 1vh 0
+            width: 100% 
+            height: 33vh
+            padding: 0 1vw
+            @extend %bottom_radius
+            @include scroll_bar(#ccc, #ffffff,3px)
+
+            ul
+
+                li  
+                    min-height: 13.14vh
+                    height: auto
+                    background-color: #FFFCF6
+                    border-radius: 1vh
+                    display: flex
+                    padding: 3vh 0vw 0vh 0vw
+                    margin: 1vh 0vw
+
+                    .fa-user
+                        @include button_circle(6vh,1.4rem,6vh,6vh)
+                        font-size: 2rem
+                        margin: 0vh 0vw 0vh 1vw
+                        padding: 1.5vh 0vw 0vh 0.1vw
+                        border-radius: 100%
+                        color: #707070
+                        background-color: #EFE9DB
+
+                    .infos
+                        margin: 0vh 0vw 0vh 1vw
+
+                        h1 
+                            font-size: 1.7rem 
+                            font-family: $font-main
+                            color: #000000
+                            font-weight: 300
+
+                        .section-infos
+                            display: flex
+                            margin-top: 0.3vh
+
+                            .note 
+                                font-family: $font-main
+                                font-weight: 600
+                                width: 2vw
+
+                            .fa-star
+                                color: $yellow-color
+                                width: 1.2vw
+                                padding-top: 0.3vh
+
+                            .date 
+                                font-family: $font-main
+                                padding-top: 0.3vh
+
+                        .avaible-text
+                            margin-top: 0.3vh
+                            font-family: $font-main
+                            width: 35vw
+                    
+        .fa-comment
+            color: $primary-color-ifood
+            font-size: 2.3rem 
+            height: 3.8vh
+            margin: 6vh 0vw 0vh 4vw
+            transition: transform 0.5s
+
+            &:hover 
+                transform: scale(1.2)
+                cursor: pointer
+
+                
+    .response
+        position: absolute
+        height: 20vh 
+        width: 30vw
+        background-color: #FFF3D4
+        top: 15vh
+        left: 10vw
+        border: 1px solid $primary-color-ifood
+        border-radius: 1vh
+        font-family: $font-main
+
+        .textresponse 
+            margin: 2vh
+            height: 10vh
+            width: 20vw
+            border: 1px solid $primary-color-ifood
+            font-size: 1.3rem
+            font-family: $font-main
+
+        .btn-submit
+            border-radius: 1vh
+            height: 4vh
+            width: 10vw
+            font-family: $font-main
+            font-size: 1.3rem
+            border: none
+            color: #ffffff 
+            background-color: $primary-color-ifood
+            margin-left: 3vw
+

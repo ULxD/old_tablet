@@ -1,0 +1,82 @@
+.dealership
+    display: none
+    width: 100%
+
+    header 
+        height: 10vh 
+        background-color: $primary-color-dealership
+        @extend %top_radius
+        display: flex
+        width: 100%
+        padding: 2vh 3vw 0vh 3vw
+
+        h1 
+            color: #ffffff
+            font-weight: 900 
+            text-decoration: underline
+            font-size: 3rem
+            text-align: center
+            font-family: $font-dealer
+            margin: 0 auto
+
+            @include md()
+                font-size: 2.5rem
+
+
+        .fa-sign-out-alt
+            color: #ffffff 
+            font-size: 2.7rem 
+            margin-top: 1vh
+
+
+    #dealer-main 
+        display: none 
+
+        .listmain
+            @extend %bottom_radius 
+            background-color: #f8f8f8
+            display: flex 
+            flex-wrap: wrap
+            justify-content: space-around
+            height: 47.6vh
+            width: 49.8vw
+
+            li 
+                height: 49.8%
+                width: 49.8%
+                background-color: #f8f8f8
+                display: flex
+                padding: 8vh 0vw 0vh 2.3vw
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+
+                &:hover 
+                    background-color: #746dbe3f
+                    cursor: pointer
+
+                .icon 
+                    color: $primary-color-dealership
+                    font-size: 5rem
+
+                .type 
+                    margin-left: 1vw
+                    color: rgb(2,2,2)
+
+                    h1 
+                        font-weight: bolder 
+                        font-family: $font-dealer
+                        
+                        @include md()
+                            font-size: 1.5rem
+
+                    p 
+                        font-size: 0.8rem 
+                        color: rgba(2, 2,2, 0.5 )
+                        font-family: $font-dealer
+
+            .leftlist
+                border-bottom-left-radius: 1.1vh
+            
+
+            .rightlist
+                border-bottom-right-radius: 1.1vh
+            

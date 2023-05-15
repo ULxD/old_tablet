@@ -1,0 +1,73 @@
+.boxifood
+    display: none
+    width: 30vw
+    height: 22vh
+    border: 2px solid $primary-color-ifood
+    border-radius: 1vh
+    margin: 23vh 0vw 0vh 10vw
+    position: relative
+    bottom: 48vh
+    background-color: $white-color
+    overflow: hidden
+
+    .boxcontent
+        display: flex
+        width: 30vw
+
+
+        .leftbox
+            width: 50%
+
+            img
+                margin-top: 5vh
+                height: 12vh
+                width: 90%
+                object-fit: contain
+
+        .rightbox 
+            width: 50%
+
+            .fa-times
+                color: $red-color
+                float: right
+                margin-right: 1vw
+                margin-top: 1vh
+
+            p
+                margin-top: 4vh
+                width: 90%
+                height: 11vh
+                font-family: $font-main
+                font-size: 0.9rem
+            
+            .itemquantidade
+                display: flex
+
+                input
+                    height: 4vh
+                    width: 6vh
+                    text-align: center
+                    outline: none
+                    border: none
+                    border-radius: 1vh
+                    background-color: rgba(241, 237, 237, 0.541)
+                    color: $primary-color-ifood
+                    font-weight: 600
+
+                    &:focus
+                        outline: none
+                
+                button 
+                    color:  $primary-color-ifood
+                    width: 5vw
+                    height: 4vh
+                    outline: none
+                    border: none
+                    border-radius: 1vh
+                    font-family: $font-second
+                    font-size: 2.5vh
+                    margin-left: 1vh
+                    transition: transform .5s
+
+                    &:hover
+                        @include hover_scale(1.05)

@@ -1,0 +1,1489 @@
+{
+    "restaurantes": [
+        {
+            "name": "Cool Beans",
+            "description": "A cafeteria Cool Beans vem com a proposta de ser um ponto de entretenimento para todas as pessoas. Nossa culinária é inspirada na famosa confeitaria francesa, que se reflete no interior do ambiente: tons pastéis e rosados que remetem aos quitutes servidos pela nossa cozinha. Seja para tomar um café da manhã ou da tarde, a Cool Beans é o espaço ideal para trazer amigos e jogar conversa fora. Venha tomar uma xícara de café conosco!",
+            "perm": "coolbeans.permissao",
+            "permleader": "coolbeanslider.permissao",
+            "set": "CoolBeans",
+            "logoloc": "bkgloccool",
+            "logoone": "coolbeanslogo1",
+            "logotwo": "coolbenscapa",
+            "backgroundabout": "bkgcool",  
+            "class": "bem",
+            "removeGroups":["Coolbeans","Coolbeanssecundario"],
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "type": "Cafeteria",
+            "drinks": [
+                {
+                    "name": "Milkshake de Cereja",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "milkshakecereja"
+                },
+                {
+                    "name": "Chocolate Quente",
+                    "price": "280",
+                    "desc": "Leite fresco fervido com achocolatado em pó.",
+                    "pic": "chocolatequente"
+                },
+                {
+                    "name": "Café Expresso",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "cafeexpresso"
+                },
+                {
+                    "name": "Capuccino",
+                    "price": "280",
+                    "desc": "Tradicional, cremoso e fit.",
+                    "pic": "capuccino"
+                },
+                {
+                    "name": "Frappuccino",
+                    "price": "280",
+                    "desc": "Chocolate, morango, ovomaltine, nutella, óreo, chocolate s/ lactose, cookies, banana, açaí e cerveja.",
+                    "pic": "frappuccino"
+                },
+                {
+                    "name": "Suco de frutas",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "sucodefrutas"
+                },
+                {
+                    "name": "Energético",
+                    "price": "1500",
+                    "desc": "",
+                    "pic": "energetico"
+                }
+                
+            ],
+            "candy":[
+                {
+                    "name": "Cookies",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "cookies"
+                },
+                {
+                    "name": "Cupcake",
+                    "price": "250",
+                    "desc": "Manteiga, açúcar mascavo, mel, farinha de trigo, gengibre em pó,  bicarbonato de sódio, ovo batido.",
+                    "pic": "cupcake"
+                },
+                {
+                    "name": "Brigadeiro",
+                    "price": "250",
+                    "desc": "Leite condensado, manteiga e chocolate em pó.",
+                    "pic": "brigadeiro"
+                },
+                {
+                    "name": "Macaron",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "macaron"
+                },
+                {
+                    "name": "Pudim",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "pudim"
+                },
+                {
+                    "name": "Torta de Cereja",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "tortadecereja"
+                },
+                {
+                    "name": "Fraisier Cake de Morango",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "fraisercakemorango"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Bolinhos da Val",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "bolinhosdaval"
+                },
+                {
+                    "name": "Croissant de Queijo",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "croissantdequeijo"
+                },
+                {
+                    "name": "Crepe Suzette",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "crepesuzette"
+                },
+                {
+                    "name": "Pão Brioche",
+                    "price": "280",
+                    "desc": "",
+                    "pic": "paobrioche"
+                },
+                {
+                    "name": "Croque-monsieur",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "croquemonsieur"
+                }
+            ],
+            "others": [
+                {
+                    "name": "Combo - Le Cherrie",
+                    "price": "1000",
+                    "desc": "",
+                    "pic": "combo-lecherrie"
+                }
+            ]
+        },
+        {
+            "name": "Tequila-la",
+            "logoloc": "bkgloctequilala",
+            "removeGroups":["Tekilala","Tekilalasecundario"],
+            "description": "O nosso Bar Tequila-lá tem como principal objetivo sempre receber você bem para que volte, queremos que você fale do Tequila-lá para os amigos e familiares com carinho para que isso se multiplique. Sempre foi cultural nessa gestão receber as pessoas e lotar o bar pra qualquer tipo de resenha ou festa, sempre oferecendo um serviço de qualidade. Nosso diferencial é buscar o melhor evento pra você e para isso buscamos inovar em cada um deles com temáticas diferenciadas e ideias fora da caixinha, seja como patrocinador oficial do evento ou de terceiros.\nNunca esquecendo que somos um bar com comidas e bebidas escolhidas a dedo com carinho pelos donos juntamente com os colaboradores.\nPara que tudo funcione da melhor forma possível investimos em bons funcionários, oferecemos cursos, e treinamos bem cada um deles para fazer sua visita virar rotina. Valores como organização, respeito e comprometimento são avaliados. Temos funcionários como amigos, para que o ambiente seja agradável e percorra o caminho até o seu atendimento.\nGostamos sempre de manter uma excelente avaliação dos nosso clientes e buscamos melhorar a cada dia, um cliente insatisfeito não nos agrada e por isso nos ajuda a crescer visando ter um lugar de destaque no topo. a\n Para sua comodidade temos o serviço de buffet para eventos externos, e nosso delivery para qualquer lugar da cidade!\n \nSe você ainda não conhece o Tequila-lá hoje é um ótimo dia para fazer isso, estamos te esperando.",
+            "perm": "tekilala.permissao",
+            "permleader": "tekilalalider.permissao",
+            "set": "Tekilala",
+            "logoone": "tequila",
+            "logotwo": "tequilacapa",
+            "backgroundabout": "tekcapa", 
+            "class": "teq",
+            "type": "Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "Corote",
+                    "price": "500",
+                    "desc": "Blueberry, Tutti Frutti, Limão, Pessego, Morango e Maracujá",
+                    "pic": "corote"
+                },
+                {
+                    "name": "Guaraná jesus",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "guaranaj"
+                },
+                {
+                    "name": "Soda italiana",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "sodaitaliana"
+                },         
+                {
+                    "name": "Suco",
+                    "price": "250",
+                    "desc": "Laranja, Abacaxi, Morango, Uva, Maracujá, Melancia, Detox, Limonada",
+                    "pic": "suco"
+                },             
+                {
+                    "name": "José Cuervo",
+                    "price": "600",
+                    "desc": "",
+                    "pic": "josecuervo"
+                },
+                {
+                    "name": "Energético",
+                    "price": "2000",
+                    "desc": "",
+                    "pic": "energetico"
+                }
+            ],
+            "candy": [
+                {
+                    "name": "Algodão Doce",
+                    "price": "200",
+                    "desc": "Nuvem no palito",
+                    "pic": "algodaodoce"
+                },
+                {
+                    "name": "M'ms",
+                    "price": "200",
+                    "desc": "",
+                    "pic": "mm"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Temaki",
+                    "price": "350",
+                    "desc": "Philadelphia, Skin, Califórnia, Atum.",
+                    "pic": "temaki"
+                },
+                {
+                    "name": "Sushi",
+                    "price": "350",
+                    "desc": "Doritos, Ruffles, Lays, Cheetos, Fandangos, Torcida.",
+                    "pic": "sushi"
+                },
+                {
+                    "name": "Sashimi",
+                    "price": "350",
+                    "desc": "Doritos, Ruffles, Lays, Cheetos, Fandangos, Torcida.",
+                    "pic": "sashimi"
+                },
+                {
+                    "name": "Hot roll",
+                    "price": "350",
+                    "desc": "Philadelphia, Skin, Califórnia, Atum.",
+                    "pic": "hotroll"
+                },
+                {
+                    "name": "Tequila Burguer",
+                    "price": "300",
+                    "desc": "Pão artesanal, 180g de carne ou hamburguer de Soja, Molho especial, Fatias de Bacon, Cheddar ou Catupiry, Alface, Tomate.",
+                    "pic": "tequilaburger"
+                },
+                {
+                    "name": "Tequila Pizza",
+                    "price": "300",
+                    "desc": "Mussarela, Atum, Calabresa, 4 Queijos, Portuguesa, Frango, Brocolis, Shimeji, Rucula, Banana, Chocolate, Prestigio.",
+                    "pic": "tequilapizza"
+                },
+                {
+                    "name": "Pastel",
+                    "price": "300",
+                    "desc": "Carne, Queijo, Camarão, Calabresa, Frango c/ Catupiry, Carne Seca, Palmito, Pasta de amendoim, Nutella, Chocolate.",
+                    "pic": "pastel"
+                }
+            ],
+            "others": [
+                {
+                    "name": "Combo-pitty",
+                    "price": "1750",
+                    "desc": "2 tequila la pizza, 1 salgadinho, 1 M&M, 1 algodao doce, 1 tequila cocktail e 1 guarana jesus.",
+                    "pic": "combo-pitty"
+                },
+                {
+                    "name": "Combo-ozzy",
+                    "price": "2400",
+                    "desc": "1 tequila burguer, 1 pastel, 1 Halls , 1 algodao doce, 1 tequila cocktail, 1 corote e 1 jose cuervo.",
+                    "pic": "combo-ozzy"
+                },
+                {
+                    "name": "Barca Japa",
+                    "price": "2000",
+                    "desc": "2 Temaki, 2 HotRoll, 2 Sashimi , 2 Sushi, 1 Tequila",
+                    "pic": "barcajapa"
+                },
+                {
+                    "name": "Halls Preto",
+                    "price": "200",
+                    "desc": "",
+                    "pic": "hallspreto"
+                },                {
+                    "name": "Essências",
+                    "price": "1000",
+                    "desc": "Chocolate, Banana e Morango.",
+                    "pic": "essencia"
+                },
+                {
+                    "name": "Cigarro Tequila",
+                    "price": "1000",
+                    "desc": "",
+                    "pic": "cigarrotequila"
+                }
+            ]
+            
+            
+        },
+        {
+            "name": "Split Sides",
+            "logoloc": "bkglocsplit",
+            "removeGroups":["Split","Splitsecundario"],
+            "description": "O clube Split Sides West Comedy mais conhecida como “Split Comedy”, localizado no bairro West Vinewood, é um bar, restaurante e centro de entretenimento social fundado em maio de 2021, pela influente família Montez, mostrando ser um grande espaço de apresentações oferecendo atrações nacionais e internacionais para a cidade de Long Beach onde o foco é ter um ambiente receptivo e aconchegante com ênfase em shows de Stand-Up, noites temáticas para eventos e diversos outros tipos de comemorações e festas.\n O Espaço tem uma iluminação completamente diferente dos demais estabelecimentos da cidade, com poltronas aconchegantes e confortáveis, uma acústica muito boa com som ambiente agradável e espaços reservados para casais no 2º piso.\n O Split conta com um cardápio variado onde contém uma diversidade de comidas e alimentos, aperitivos, sobremesas e deliciosas bebidas. Além disso, nosso estabelecimento também conta com alguns alimentos e pratos veganos.\n O Split também conta com uma equipe de profissionais altamente treinados para receber nossos clientes da melhor forma possível.\n Venha conhecer nosso estabelecimento e divirta-se com nossos shows e eventos. Diversão é só aqui no Split Comedy!",
+            "perm": "split.permissao",
+            "permleader": "splitlider.permissao",
+            "logoone": "splitss",
+            "set": "Split",
+            "logotwo": "splicapa",
+            "backgroundabout": "bkgsplit", 
+            "class": "spl",
+            "type": "Pub Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "candy": [
+                {
+                    "name": "Panna Cotta",
+                    "price": "300",
+                    "desc": "Ela é uma sobremesa de origem italiana, feita com a nata do leite, gelatina, açúcar e especiarias. Ela pode ser consumida sozinha, com caldas, compotas ou frutas frescas.",
+                    "pic": "pannacotta"
+                },
+                {
+                    "name": "Tiramisu",
+                    "price": "300",
+                    "desc": "Sobremesa tipicamente italiana com as suas camadas de biscoito embebidas em café forte mas na dose certa, com o seu recheio de queijo mascarpone e natas, e o subtil aroma de vinho rematado com uma fina camada de cacau.",
+                    "pic": "tiramisu"
+                },
+                {
+                    "name": "Dynasty Shake",
+                    "price": "300",
+                    "desc": "Sorvete de creme  batido com leite, chocolate e pedaços de bombom.",
+                    "pic": "dynastyshake"
+                },
+                {
+                    "name": "Iorgute",
+                    "price": "300",
+                    "desc": "Morango, Salada de Frutas, pêssego, coco.",
+                    "pic": "iorgute"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "Licuados",
+                    "price": "300",
+                    "desc": "Suco de frutas naturais com leite ou iougurt.",
+                    "pic": "licuados"
+                },
+                {
+                    "name": "Schweppes",
+                    "price": "300",
+                    "desc": "Refrigerante Citrus.",
+                    "pic": "schweppes"
+                },
+                {
+                    "name": "Bubble Tea",
+                    "price": "300",
+                    "desc": "Bebida composta por chá misturado com suco de fruta ou leite, ao qual se acrescentam bolinhas de tapioca que explodem sabores.",
+                    "pic": "bubbletea"
+                },
+                {
+                    "name": "Marguerita",
+                    "price": "300",
+                    "desc": "Pedaço de frutas frescas com gelo, Sal, Licor de Laranja e limão.",
+                    "pic": "marguerita"
+                },
+                {
+                    "name": "Richebourg",
+                    "price": "400",
+                    "desc": "Richebourg é um vinho produzido na comuna de Vosne-Romanée, região da Borgonha, Côte d'Or, França.",
+                    "pic": "richebourg"
+                },
+                {
+                    "name": "Pincer Shanghai Strength",
+                    "price": "400",
+                    "desc": "Com 38% vol de Alcool.",
+                    "pic": "pincershanghai"
+                },
+                {
+                    "name": "Lagoa Azul",
+                    "price": "300",
+                    "desc": "Vodka, Suco de limão, Refrigerante de limão, corante alimentício azul, cubo de gelo.",
+                    "pic": "lagoaazul"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Bouncheé de Rolé",
+                    "price": "300",
+                    "desc": "Enrroladinho de peru com cranberry e pimenta boursin.",
+                    "pic": "bouncheederole"
+                },
+                {
+                    "name": "Croqui D'Monsieur",
+                    "price": "300",
+                    "desc": "Pão de miga, presunto, queijo gouda, mussarela, molho bechame.",
+                    "pic": "croquidmonsieur"
+                },
+                {
+                    "name": "Salada Caprese",
+                    "price": "300",
+                    "desc": "Folhas de alface, Tomate, Mozzarella, Parmesão, queijo prado.",
+                    "pic": "saladacaprese"
+                },
+                {
+                    "name": "Enchiladas Mexicana",
+                    "price": "400",
+                    "desc": "Prato tradicional mexicano feito com tortilha de milho frita, banhada em molho picante e servidas com cebola, alface, creme de leite ou queijo.",
+                    "pic": "enchiladasmexicana"
+                },
+                {
+                    "name": "Muqueca Baiana",
+                    "price": "400",
+                    "desc": "Azeite de dendê, Leite de coco, pimentão, tomate, cebola, Peixe, frango ou ovo acompanhado de pirão e arroz.",
+                    "pic": "muquecabaiana"
+                },
+                {
+                    "name": "Raviolli",
+                    "price": "400",
+                    "desc": "Carne com espinafre.",
+                    "pic": "raviolli"
+                },
+                {
+                    "name": "Child's Fun Lunch",
+                    "price": "300",
+                    "desc": "Refeições saudáveis para crianças.",
+                    "pic": "childsfun"
+                },
+                {
+                    "name": "Lasanha Vegana",
+                    "price": "300",
+                    "desc": "Com berinjela, brócolis, molho vermelho e creme de castanhas.",
+                    "pic": "lasanhavegana"
+                }
+            ],
+            "others": [
+                {
+                    "name": "Combo iQuill",
+                    "price": "2200",
+                    "desc": "2x Salada Caprese, 1x Panna Cotta, 2x Enchiladas mexicanas, 2x Licuados, 2 Schweppes ",
+                    "pic": "comboiquill"
+                }
+            ]
+        },
+        {
+            "name": "The Hen",
+            "logoloc": "bkglocthehen",
+            "removeGroups":["Hen","Hensecundario"],
+            "description": "O The Hen House nasceu em meados de Maio de 2020, na região de Paleto Bay. De início teve em sua versão um pouco mais intimista, a própria imagem da região norte.\n Já em sua segunda versão, teve uma evolução mais para casa noturna comandando as baladas mais divertidas de Paleto.\n  Agora em sua atual versão tem um ambiente totalmente agradável, perfeito para reuniões trabalho palestras, jogar uma conversa fora, relaxar e muito mais!",
+            "perm": "bar.permissao",
+            "permleader": "barlider.permissao",
+            "set": "Hen",
+            "logoone": "hen",
+            "logotwo": "henhousecapa",
+            "class": "hen",
+            "type": "Pub Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "Drink Super Homem",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "drinksuperhomen"
+                },
+                {
+                    "name": "Drink Mulher Maravilha",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "drinkmulhermaravilha"
+                },
+                {
+                    "name": "Suco de abacaxi com Hortelã",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "sucodeabacaxicomhortela"
+                },
+                {
+                    "name": "Special Brownie Shake",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "specialbrownieshake"
+                },
+                {
+                    "name": "Pepsi Twist",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "pepsitwist"
+                },
+                {
+                    "name": "Cerveja Budweiser",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "cervejabudweiser"
+                },
+                {
+                    "name": "Campari Milano",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "camparimilano"
+                },
+                {
+                    "name": "Chop de vinho",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "chopvinho"
+                },
+                {
+                    "name": "Suco de abacaxi com pera",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "sucodeabacaxicompera"
+                }
+            ],
+            "candy": [
+                {
+                    "name": "Torta Holandesa",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "tortahorlandesa"
+                },
+                {
+                    "name": "Paçoquinha",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "pacoquinhaa"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Frango a passarinho",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "frangoapassarinho"
+                },
+                {
+                    "name": "Onion Rings",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "onionringsh"
+                },
+                {
+                    "name": "Sanduiche feliz",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "sanduichefeliz"
+                },
+                {
+                    "name": "Hambúrguer Vegano",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "hamburguervegano"
+                },
+                {
+                    "name": "Hambúrguer da casa",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "hamburguerdacasa"
+                },
+                {
+                    "name": "Batata Rústica da casa",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "batatarusticadacasa"
+                }
+            ],
+            "others": [
+                {
+                    "name": "Combo The Hen",
+                    "price": "3000",
+                    "desc": " (2)Hamburguer da casa; (2) batata rustica;(2) onion rings; (1) torta holandesa; (1) Paçoquinha; (2) Drink Mulher Maravilha; (2) Drink Super Homem.",
+                    "pic": "combothehen"
+                },
+                {
+                    "name": "Combo The Hen Feliz",
+                    "price": "1600",
+                    "desc": "(1)Sanduiche feliz; (2) batata rustica; (2) Pacoquinha; (2) Suco de abacaxi com hortelã.",
+                    "pic": "combothehenfeliz"
+                },
+                {
+                    "name": "Combo The Hen Vegano",
+                    "price": "2400",
+                    "desc": "(2) Harmburguer vegano; (2) batata rustica; (2) Paçoquinha; (3) suco de abacaxi com hortela.",
+                    "pic": "combothehenvegano"
+                }
+            ]
+        },
+        {
+            "name": "Galaxy NightClub",
+            "logoloc": "bkglocgalaxy",
+            "removeGroups":["Galaxy","Galaxysecundario"],
+            "description": "Fundada em 2020, a Galaxy Night Club possui categorias bem diversificadas, a mesma pode ser categorizada como boate, club, bar, danceteria, casa de shows, dentre outras, durante os anos, a Galaxy foi moldada de acordo com seus proprietários, cada um trouxe uma melhoria, o que tornou a Galaxy uma referência no quesito danceteria, popularizando a música eletrônica, pop, trance, house e ritmos brasileiros.\nPossui um ambiente sofisticado e luxuoso, suas paredes decoradas em veludo purpura e em hexágonos dourados que lembram moedas de ouro, dão ao ambiente um toque especial, assim como seus inúmeros lustres de cristais pink, possui dois bares, cada um voltado para um área, sendo elas, área vip e pista/camarote, sua pista principal é repleta de luzes frenéticas no teto e lasers que fazem você se sentir dentro de uma nave espacial ou de um fliperama.\n No cardápio temos as mais variadas delícias, desde doces, salgados, petiscos, bebidas com e sem álcool, todas ornamentadas para dar aquele ar mais cósmico e espacial, tudo feito com muito carinho pelos nossos profissionais capacitados para melhor atendê-los.\n Oferecemos também serviços de buffet com o nosso food truck cósmico, alugamos o espaço para eventos e muito mais, venha nos conhecer!",
+            "perm": "galaxy.permissao",
+            "permleader": "galaxylider.permissao",
+            "set": "Galaxy",
+            "logoone": "gallogo1",
+            "logotwo": "galaxycapa",
+            "backgroundabout": "bkggalaxy",
+            "class": "gal",
+            "type": "Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "Cosmic Girls",
+                    "price": "300",
+                    "desc": "Polpa de Blueberry, agua com gas, refrigerante e gelo.",
+                    "pic": "cosmicgirls"
+                },
+                {
+                    "name": "Alien drinks",
+                    "price": "300",
+                    "desc": "Suco de maçã verde, refrigerante e gelo.",
+                    "pic": "applemartini"
+                },
+                {
+                    "name": "Space Refri",
+                    "price": "300",
+                    "desc": "Morango, Uva, Laranja, e Limão.",
+                    "pic": "spacerefri"
+                },
+                {
+                    "name": "Marte",
+                    "price": "250",
+                    "desc": "Frutas vermelhas",
+                    "pic": "cosmopolitan"
+                },
+                {
+                    "name": "Cosmic Shake",
+                    "price": "250",
+                    "desc": "Tutti-Frutti.",
+                    "pic": "cosmicshake"
+                },
+                {
+                    "name": "Midnight",
+                    "price": "300",
+                    "desc": "Suco de Amora negra, Gin Tonica, vodka e gelo.",
+                    "pic": "midnight"
+                },
+                {
+                    "name": "Nebulosa",
+                    "price": "300",
+                    "desc": "Suco de blueberry, Gin Tonica, Cachaça e gelo",
+                    "pic": "bluelaggon"
+                },
+                {
+                    "name": "Space Milk",
+                    "price": "250",
+                    "desc": "Cholate, morango.",
+                    "pic": "spacemilk"
+                },
+                {
+                    "name": "Vodkazone",
+                    "price": "250",
+                    "desc": "",
+                    "pic": "vodkazone"
+                }
+
+            ],
+            "others": [
+                {
+                    "name": "Combo Galaxy",
+                    "price": "2200",
+                    "desc": "2 galaxy burguer, 1 space pizza, 1 moon cheese , 2 cosmic girls, 1 cosmic shake, 1 space refri, 1 galaxygurt",
+                    "pic": "combogalaxy"
+                }
+            ],
+            "candy": [
+                {
+                    "name": "Galaxy cake",
+                    "price": "350",
+                    "desc": "Doce de leite, Chocolate, Granulado e confetes.",
+                    "pic": "galaxycake"
+                },
+                {
+                    "name": "Galaxy gurt",
+                    "price": "200",
+                    "desc": "Morango, Maçã e banana.",
+                    "pic": "galaxygurt"
+                },
+                {
+                    "name": "Ice galaxy",
+                    "price": "300",
+                    "desc": "Nutella, amora negra, blueberry e chocolate",
+                    "pic": "icegalaxy"
+                },
+                {
+                    "name": "Space pizza",
+                    "price": "300",
+                    "desc": "Nutella, Confetes space e granulados.",
+                    "pic": "spacepizza"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Galaxy burguer",
+                    "price": "300",
+                    "desc": "Hamburguer ou hamburguer de soja, salada, Queijo, presunto, moilho especial",
+                    "pic": "galaxyburguer"
+                },
+                {
+                    "name": "Hot galaxy",
+                    "price": "300",
+                    "desc": "Pão, Salsicha, Molho, Milho e Ervilha, Batata Palha e vinagrete.",
+                    "pic": "hotgalaxy"
+                },
+                {
+                    "name": "Moon chese",
+                    "price": "300",
+                    "desc": "Bolinha de queijo",
+                    "pic": "moonchese"
+                },
+                {
+                    "name": "Taco galaxy",
+                    "price": "300",
+                    "desc": "Chilli ou chilli vegan, guacamole, alface picado e tomate picado.",
+                    "pic": "tacogalaxy"
+                },
+                {
+                    "name": "Espetinho de legumes",
+                    "price": "300",
+                    "desc": "Tomate cereja, abobrinha, pepino, cebola, cenoura, beringela e pimetão.",
+                    "pic": "espetinhodelegumes"
+                }
+            ]
+        },
+        {
+            "name": "CyberPunk",
+            "logoloc": "bkgloccyberpunk",
+            "removeGroups":["Cyber","Cyberprimario"],
+            "description": "A idealização de criação do Cyberpunk Arcade surge quando duas amigas médicas, Hanna Shinoda e Fernanda Conti começam a se questionar como podem trazer novos desafios para suas vidas em Long Beach e agregar no cotidiano dos cidadãos. Elas têm o empreendedorismo e espirito de liderança como algo natural para elas, sempre buscando e enfrentando novos desafios a cada dia. Hanna fazendo parte de família japonesa e Fernanda sempre inteirada sobre elementos da cultura pop e elementos japoneses e orientais. Quando em uma noite saem para um jantar em um restaurante para celebrar uma conquista, percebem como a má gerencia pode tornar um local desagradável, logo elas têm a ideia de um empreendimento diferente, elas não perdem tempo e já montam um plano de ação para execução das atividades. Surge a ideia da criação de um estabelecimento que mistura elementos da cultura pop, norte americana e japonesa. Então um nome vem à tona “Cyberpunk Arcade”, elas veem isso como um novo desafio, uma nova jornada, com toda a temática oriental moderna e descolada, trazendo diversos elementos retrô dos fliperamas dos Estados Unidos. Tendo grande potencial de desenvolvimento e agregador de benefícios como boa comida, bebida, atendimento de qualidade, serviços exclusivos e entretenimento de primeira, elas logo querem assumir esse desafio de explorar todo o potencial do Cyberpunk, com a realização de eventos que trariam toda a atenção do público com premiações, promoções, atendimento primoroso e muita alegria.",
+            "perm": "cyber.permissao",
+            "permleader": "cyberlider.permissao",
+            "set": "Cyber",
+            "logoone": "cyber",
+            "logotwo": "cybercapa",
+            "backgroundabout": "bkgcyber",
+            "class": "cyb",
+            "type": "Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks":[
+                {
+                    "name": "Mana Potion",
+                    "price": "300",
+                    "desc": "Suco de Blue Berry",
+                    "pic": "manapotion"
+                },
+                {
+                    "name": "Suco Natural",
+                    "price": "300",
+                    "desc": "Sabores: Laranja, maracujá, abacaxi, acerola e manga",
+                    "pic": "suconaturalc"
+                },
+                {
+                    "name": "Limonada",
+                    "price": "300",
+                    "desc": "Tradicional suco de limão com gelo.",
+                    "pic": "limonadac"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "price": "300",
+                    "desc": "Refrigerante de cola. ",
+                    "pic": "cocacolac"
+                },
+                {
+                    "name": "Café Gelado",
+                    "price": "300",
+                    "desc": "Café especial preparado com gelo, chantilly e canela.",
+                    "pic": "cafegeladoc"
+                },
+                {
+                    "name": "Corona",
+                    "price": "400",
+                    "desc": "Tradicional cerveja de origem mexicana.",
+                    "pic": "coronac"
+                },
+                {
+                    "name": "Red Bull",
+                    "price": "2000",
+                    "desc": "Tradicional Energético.",
+                    "pic": "redbullc"
+                }
+
+            ],
+            "candy": [
+                {
+                    "name": "Tortinha de Abacaxi",
+                    "price": "350",
+                    "desc": "– Casquinha de biscoito doce recheado com creme de abacaxi e raspas de limão.",
+                    "pic": "tortinhadeabacaxic"
+                },
+                {
+                    "name": "Banana Split",
+                    "price": "350",
+                    "desc": "Sobremesa constituída de banana com sorvete de chocolate, sorvete de creme e sorvete de morango com calda de chocolate e castanhas trituradas.",
+                    "pic": "bananasplitc"
+                },
+                {
+                    "name": "Danoninho",
+                    "price": "350",
+                    "desc": "O tradicional e nutritivo Danoninho.",
+                    "pic": "danoninhoc"
+                },
+                {
+                    "name": "Salada de Frutas",
+                    "price": "350",
+                    "desc": "Delicioso mix de frutas com variações de (kiwi, maçã, laranja, framboesa, banana, abacaxi, morango) e adicionais de iogurte, mel e granola.",
+                    "pic": "saladadefrutasc"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Gank Burguer",
+                    "price": "350",
+                    "desc": "Pão australiano, bife bovino de 200g, bacon, cebola caramelizada, cheddar, alface, tomate e dois molhos da casa.",
+                    "pic": "gangburger"
+                },
+                {
+                    "name": "Gank Júnior",
+                    "price": "350",
+                    "desc": "Pão de batata, bife bovino 100g, queijo muçarela, alface e tomate.",
+                    "pic": "gankjunior"
+                },
+                {
+                    "name": "Pizza",
+                    "price": "350",
+                    "desc": "Opções de: Da casa, 4 queijos, frango com catupiry, calabresa, carne seca e palmito.",
+                    "pic": "pizzac"
+                },
+                {
+                    "name": "Beirute",
+                    "price": "350",
+                    "desc": "Pão sírio, filé Mignon, queijo muçarela, presunto, bacon, alface, tomate e picles.",
+                    "pic": "beirute"
+                },
+                {
+                    "name": "Batata-Frita",
+                    "price": "350",
+                    "desc": "Batata inglesa com cheddar e bacon.",
+                    "pic": "batatafc"
+                },
+                {
+                    "name": "Yakisoba",
+                    "price": "350",
+                    "desc": "Macarrão refogado com legumes e carne, temperado com um molho especial da casa com especiarias e ervas.",
+                    "pic": "yakisobac"
+                },
+                {
+                    "name": "Papinha Nestlé",
+                    "price": "350",
+                    "desc": "Sabores: Macarrão com carne e legumes ou banana com maçã.",
+                    "pic": "papinhanestle"
+                }
+            ],
+            "others":[
+                {
+                    "name": "Combo CyberKids",
+                    "price": "2000",
+                    "desc": "1 Gank Júnior, 1 Batata Frita, 1 Danoninho e 2 Sucos Naturais",
+                    "pic": "combo-kidsc"
+                },
+                {
+                    "name": "Combo Cybernético",
+                    "price": "2000",
+                    "desc": "1 Gank Burguer, 1 Batata Frita, 2 Coca-Cola e 1 Mana Potion.",
+                    "pic": "combo-cybernetico"
+                }
+            ]
+        },
+
+        
+        {
+            "perm": "vanilla.permissao",
+            "logoloc": "bkglocvanilla",
+            "removeGroups":["Vanilla","Vanillasecundario"],
+            "permleader": "vanillalider.permissao",
+            "description": "teste",
+            "name": "Vanilla Unicorn",
+            "set": "Vanilla",
+            "logoone": "vanil",
+            "logotwo": "vanillacapa",
+            "class": "val",
+            "type": "Pub Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "4,5",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks":[
+
+                {
+                    "name": "Blue label",
+                    "price": "300",
+                    "desc": "Dose de whiskey com 20 anos de maturação.",
+                    "pic": "bluelabel"
+                },
+                {
+                    "name": "Sexo Selvagem",
+                    "price": "300",
+                    "desc": "Bebida a base de suco de maçã, guaraná e marapuama.",
+                    "pic": "sexoselvagem"
+                },
+                {
+                    "name": "Mel Quente",
+                    "price": "300",
+                    "desc": "Bebida fermentada do mel para deixar seu dia mais docinho.",
+                    "pic": "melquente"
+                },
+                {
+                    "name": "Milk Shake de Halls Preto",
+                    "price": "350",
+                    "desc": "Delicioso milkshake sabor extra forte.",
+                    "pic": "milkshakedehallspreto"
+                },
+                {
+                    "name": "Leite quente",
+                    "price": "300",
+                    "desc": "Leitinho da melhor qualidade, preparado com um toque especial.",
+                    "pic": "leitequente"
+                },
+                {
+                    "name": "Caipiroka",
+                    "price": "300",
+                    "desc": "Uma dose de vodka de qualidade com limão, açúcar e gelo a gosto.",
+                    "pic": "caipiroka"
+                },
+                {
+                    "name": "Champagne",
+                    "price": "400",
+                    "desc": "Uma garrafa de champagne bem geladinho.",
+                    "pic": "champagne"
+                },
+                {
+                    "name": "Licor de Amarola",
+                    "price": "300",
+                    "desc": "Bebida doce e viciante que deixa a língua dormente.",
+                    "pic": "licordeamarola"
+                }
+            ],
+            "candy":[
+                {
+                    "name": "Chocolate com Pimenta",
+                    "price": "300",
+                    "desc": "Trufas de chocolate com gotas de pimenta que derrete na boca.",
+                    "pic": "chocolatecompimenta"
+                },
+                {
+                    "name": "Pirulito Chupetinha",
+                    "price": "300",
+                    "desc": "Pirulito chupetinha em diversos sabores.",
+                    "pic": "pirulitochupetinha"
+                },
+                {
+                    "name": "Morangos Cobertos",
+                    "price": "300",
+                    "desc": "Suculentos morangos cobertos com chocolate apimentado.",
+                    "pic": "morangoscobertos"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Cuschetta",
+                    "price": "300",
+                    "desc": "Pequenas fatias de pão grelhado com tartare, azeite e ervas.",
+                    "pic": "cuschetta"
+                },
+                {
+                    "name": "Bruschetta",
+                    "price": "300",
+                    "desc": "Deliciosas fatias de baguete regadas em azeite com tomate, manjericão e orégano.",
+                    "pic": "bruschetta"
+                },
+                {
+                    "name": "Salsichao",
+                    "price": "300",
+                    "desc": "Salsicha grande, grossa e bem gostosinha, grelhada e servida em espeto.",
+                    "pic": "salsichao"
+                },
+                {
+                    "name": "Vanilla Burguer",
+                    "price": "350",
+                    "desc": "Apetitoso hambúrguer com duas carnes, queijo e salada.",
+                    "pic": "vanillaburguer"
+                },
+                {
+                    "name": "Rosquinhav",
+                    "price": "280",
+                    "desc": "Bolo em forma de rosca, rosinha e bem molhadinho.",
+                    "pic": "rosquinhav"
+                }
+            ],
+            "others": [
+                {
+                    "name": "Charutos",
+                    "price": "1700",
+                    "desc": "Fumo cubano com canela, noz-moscada e madeira picante.",
+                    "pic": "charutos"
+                },
+                {
+                    "name": "Combo Gang Bang",
+                    "price": "2200",
+                    "desc": "1x Caipiroka + 1x Licor de Amarola + 2x Sexo Selvagem + 2x Salsichão + 2x Bruschetta + 1x Chupetinha.",
+                    "pic": "combo-gangbang"
+                },
+                {
+                    "name": "Combo Papai e Mamãe",
+                    "price": "2700",
+                    "desc": "2x Mel quente + 2 Milkshake de Halls Preto + 2x Bruschetta + 2x Vanilla Burger + 1x Chocolate com Pimenta.",
+                    "pic": "combo-papaimamae"
+                },
+                {
+                    "name": "Combo Orgasmico",
+                    "price": "4000",
+                    "desc": "balde de gelo com 2 Blue Label + 4 energéticos.",
+                    "pic": "combo-orgasmico"
+                }
+            ]
+        },
+        {
+            "perm": "yellow.permissao",
+            "logoloc": "bkglocyellow",
+            "removeGroups":["Yellow","Yellowsecundario"],
+            "description": "O Yellow Jack foi fundado a mais de 100 anos por um casal que veio do interior da Califórnia, tendo sempre uma grande tradição em seu cardápio e seu ambiente. Desde sempre o Yellow Jack preza por deixar vocês mais perto da nossa cultura. Muita música, muita bebida e comida boa. É um bar de ambiente discreto e ousado ao mesmo tempo. Sempre tivemos preocupação de sermos como uma família, então aqui você terá todo acolhimento, seja em momentos felizes ou em momentos de reflexão, o que importa é que quando vocês saírem da nossa porta, vocês estejam satisfeitos (se é que vão querer sair). Viajar para o norte é relembrar e tudo que já foi vivido, e o Yellow Jack faz parte dessa história. Hoje gerido e comandado por Oliver Scherzinger D.Doss, que assumiu o bar no último ano. Entre todas as suas ideias, hoje focamos em ter o preço super acessível, garantido a qualidade de sempre, para crescermos juntos na cidade que amamos.",
+            "permleader": "yellowlider.permissao",
+            "name": "Yellow Jack",
+            "set": "Yellow",
+            "logoone": "yellownew",
+            "logotwo": "yellownewcapa",
+            "backgroundabout": "bkgyellow", 
+            "class": "yel",
+            "type": "Pub Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "1,0",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "Heineken",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "heinekeny"
+                },
+                {
+                    "name": "Union Jack",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "unionjack"
+                },
+                {
+                    "name": "Pink Limonade",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "pinklimonadey"
+                },               
+                {
+                    "name": "Pina Descolada",
+                    "price": "325",
+                    "desc": "",
+                    "pic": "pinadescolada"
+                },                
+                {
+                    "name": "Flamingo Juice",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "flamingojuice"
+                },                
+                {
+                    "name": "Bancroft's Drink",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "bancroftsdrink"
+                },
+                {
+                    "name": "Yellow Shake",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "yellowshake"
+                },
+                {
+                    "name": "Cosmopolitan",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "cosmopolitany"
+                }
+            ],
+            "candy": [
+                {
+                    "name": "Bolo de Pote",
+                    "price": "325",
+                    "desc": "",
+                    "pic": "bolodepotey"
+                },
+                {
+                    "name": "Churros",
+                    "price": "325",
+                    "desc": "",
+                    "pic": "churrosy"
+                },
+                {
+                    "name": "Copo da felicidade",
+                    "price": "325",
+                    "desc": "",
+                    "pic": "copodafelicidadey"
+                },
+                {
+                    "name": "Pave",
+                    "price": "325",
+                    "desc": "",
+                    "pic": "pavey"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Coxinha",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "coxinhay"
+                },
+                {
+                    "name": "Mini Hamburguer",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "minihamburguer"
+                },
+                {
+                    "name": "Pão de queijo",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "paoqueijoy"
+                },
+                {
+                    "name": "Filé a parmegiana",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "fileaparmegianay"
+                },
+                {
+                    "name": "Stronogoff",
+                    "price": "350",
+                    "desc": "",
+                    "pic": "strogonoffy"
+                },
+                {
+                    "name": "Pipoca do Oliver",
+                    "price": "300",
+                    "desc": "",
+                    "pic": "pipocadooliver"
+                }
+            ],
+            "others": [ 
+                {
+                    "name": "Combo Presepada",
+                    "price": "2000",
+                    "desc": "",
+                    "pic": "combopresepada"
+                },
+                {
+                    "name": "Combo Yellow Jack",
+                    "price": "2000",
+                    "desc": "",
+                    "pic": "comboyellowjack"
+                }
+            ]
+        },
+        {
+            "perm": "queens.permissao",
+            "logoloc": "bkglocqueens",
+            "removeGroups":["Queens","Queenssecundario"],
+            "description": "Queen's Seafood é um restaurante refinado, elegante e altamente exclusivo para momentos especiais, nossa estrutura é composta por 2 andares, salão principal e salão de festas, sem contar nossa área externa com arbustos esculturais, estamos localizados em Del Perro Pier, todo nosso ambiente tem uma decoração em tons azuis, áquarios que se destacam no recinto e lembranças do mar.\n Graças a um grande bem feitor, Claude Bosi Grande Chef foram apresentadas aos herdeiros do Queen's Seafood as mais incríveis criaturas oceânicas que atiçam o paladar daqueles que tem contato com nosso cardápio. \n Atuando desde 2018 entre Noruéga, Mianmar, Brasil e Espanha, estamos agora em Long Beach trazendo uma cultura diferente e pratos sofisticados, fizemos um planejamento enorme e chegamos aqui com grande excelência em qualidade, atendimento e feedback resultando em experiências únicas, localidade nobre com uma vista privilegiada para o céu e o azul do mar, venha conhecer nosso estabelecimento, do fundo do mar ao seu paladar.",
+            "permleader": "queenslider.permissao",
+            "name": "Queens Seafood",
+            "set": "Queens",
+            "logoone": "queen1",
+            "logotwo": "queenscapa",
+            "backgroundabout": "bkgqueens", 
+            "class": "que",
+            "type": "Pub Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "3,0",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "drinks":[
+                {
+                    "name": "Água de coco",
+                    "price": "250",
+                    "desc": "Poucas calorias, sais minerais de forma natural e ainda deliciosa.",
+                    "pic": "aguadecoco"
+                },
+                {
+                    "name": "Gim",
+                    "price": "500",
+                    "desc": "Saborosa e marcante, bebida alcoólica servida com tônico e gim.",
+                    "pic": "gim"
+                },
+                {
+                    "name": "Água com gás",
+                    "price": "200",
+                    "desc": "",
+                    "pic": "aguacomgas"
+                },
+                {
+                    "name": "Champagne Perrier-Jouët ",
+                    "price": "1000",
+                    "desc": "Champagne rosa salmão, feito pela adiçao de vinho tinho da mais nobre Pinot Noir.",
+                    "pic": "champagne"
+                },
+                {
+                    "name": "Rossini",
+                    "price": "450",
+                    "desc": "Um clássico drink italiano com vinho. É uma bebida à base de prosecco e polpa de morango.",
+                    "pic": "rossini"
+                },
+                {
+                    "name": "Martini",
+                    "price": "450",
+                    "desc": "O Rei dos coqueteis, feito com gim e vermute seco.",
+                    "pic": "martini"
+                },
+                {
+                    "name": "Coquetel de frutas",
+                    "price": "300",
+                    "desc": "Uma bebida de frutas batidas na sua versão sem alcool. ",
+                    "pic": "coqueteldefrutas"
+                }
+            ],
+            "candy": [
+                {
+                    "name": "Petit Gateau",
+                    "price": "450",
+                    "desc": "Sobremesa composta de um pequeno bolo de chocolate com casca e recheio cremoso.",
+                    "pic": "petitgateau"
+                },
+                {
+                    "name": "AlCapone's Cheesecake",
+                    "price": "500",
+                    "desc": "Uma fina base de massa composta por camadas de creme de blueberry, receita da familia Al'Capone.",
+                    "pic": "alcaponeschesscake"
+                },
+                {
+                    "name": "Wagashi ",
+                    "price": "400",
+                    "desc": "Confeito tradicional japonês que é geralmente servido com chá, tipos feitos de mochi, anko, e frutas.",
+                    "pic": "cartola"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Cogumelo Matsutake",
+                    "price": "800",
+                    "desc": "Cogumelo dourado na manteiga, temperado somente na hora do consumo com sal moido e gotas de sudachi.",
+                    "pic": "cogumelomatsuka"
+                },
+                {
+                    "name": "Casquinha de vieira",
+                    "price": "750",
+                    "desc": "Prato afrodisiaco, molusco com sabor adocicado, regada no azeite e dourada no forno.",
+                    "pic": "casquinhavieira"
+                },
+                {
+                    "name": "Lagosta natural",
+                    "price": "250",
+                    "desc": "Lagosta cozida na panela de pressão e lustrada com azeite.",
+                    "pic": "lagostanatural"
+                },
+                {
+                    "name": "Lula Provençal",
+                    "price": "700",
+                    "desc": "A lula é servida morna com um molho a base do azeite, alho, tomate e cheiro-verde além de outras ervas que fazem parte da Provença.",
+                    "pic": "lulaprovencai"
+                },
+                {
+                    "name": "Caviar",
+                    "price": "1000",
+                    "desc": "Iguaria de luxo consistido em ovas de peixe, uma espécie de geleia salgada com gosto de ostra.",
+                    "pic": "caviar"
+                },
+                {
+                    "name": "Mix de folhas",
+                    "price": "350",
+                    "desc": "Um prato refrescante, o camarão é temperado no sal e gengibre, com um mix de folhas verdes.",
+                    "pic": "mixfolhas"
+                },
+                {
+                    "name": "Ostra gratinada",
+                    "price": "200",
+                    "desc": "Ostra cozida ao vapor de vinho sauvignon blanc, finalizada e gratinada com queijo grana padano.",
+                    "pic": "ostragratinada"
+                },
+                {
+                    "name": "Escargot",
+                    "price": "250",
+                    "desc": "Iguaria francesa feita de caracóis terrestres e servida como aperitivo.",
+                    "pic": "escargot"
+                },
+                {
+                    "name": "Paillard de Mingnon",
+                    "price": "650",
+                    "desc": "O escalope de filé ao molho de vinho tinto reduzido, carne mais fina do que normalmente consumimos.",
+                    "pic": "paillarddemingnon"
+                },
+                {
+                    "name": "Ratatouille",
+                    "price": "400",
+                    "desc": "Clássica receita francesa provençal de legumes cozidos.",
+                    "pic": "ratatouille"
+                }
+            ],
+            "others":[
+                {
+                    "name": "Caixa de Perolas",
+                    "price": "3000",
+                    "desc": "1 Mix de Folhas Verdes, 2 Al'Capones Cheesecake, 2 Aguas de coco, 1 Rossini",
+                    "pic": "caixaperolas"
+                }
+            ]
+            
+        },
+        {
+            "perm": "bahamas.permissao",
+            "logoloc": "bkglocbahamas",
+            "removeGroups":["Bahamas","Bahamassecundario"],
+            "description": "",
+            "permleader": "bahamaslider.permissao",
+            "set": "Bahamas",
+            "name": "Bahamas",
+            "logoone": "bahamas",
+            "logotwo": "bahamascapa",
+            "class": "bah",
+            "type": "Pub Bar",
+            "classification": [
+                {
+                    "name:": "Whelisson DDos",
+                    "note": "5,0",
+                    "text": "Melhor resutrante de todos"
+                }
+            ],
+            "candy":[
+                {
+                    "name": "Crumble à lá Bahamas",
+                    "price": "300",
+                    "desc": "Parecida com uma torta o crumble do bahamas é uma massa quebradiça feita com maçã, morango e açúcar mascavo, pode ser servido com sorvete a sua escolha! ",
+                    "pic": "crumblealabahamas"
+                },
+                {
+                    "name": "Crunch Bahamas",
+                    "price": "300",
+                    "desc": "Cocada feita no forno e servida com uma deliciosa bola de sorvete sabor baunilha!",
+                    "pic": "crunchbahamas"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "Piña Colada",
+                    "price": "350",
+                    "desc": "Suco de abacaxi, leite de coco, rum, creme de leite e leite condensado.",
+                    "pic": "pinacolada"
+                },
+                {
+                    "name": " Frozen Margarita",
+                    "price": "350",
+                    "desc": "Tradicional margarita feita com Tequila, cointreau e suco de limão mas na sua versão mais refrescante!",
+                    "pic": "frozenmargarita"
+                },
+                {
+                    "name": "Sex on the Bahamas!",
+                    "price": "400",
+                    "desc": "Clássico de vodka, peach tree, groselha e suco de laranja conhecido também como Sex on the Beach!",
+                    "pic": "sexonthebahamas"
+                },
+                {
+                    "name": "Bahamas Moscow Mule",
+                    "price": "350",
+                    "desc": "Feito com Vodka, suco de limão e gengibre e finalizado com espuma de gengibre!",
+                    "pic": "bahamasmoscowmule"
+                },
+                {
+                    "name": "Chá Mate C/ Limão e Mel",
+                    "price": "400",
+                    "desc": "Chá mate feito na casa com infusão de limão e espuma de mel.",
+                    "pic": "chamateclimao"
+                },
+                {
+                    "name": "Ice Tea da casa",
+                    "price": "400",
+                    "desc": "Refrescante chá gelado feito na casa com infusão de várias ervas, pode ser escolhido em dois sabores. Sabores: Limão e Frutas vermelhas",
+                    "pic": "icetea"
+                },
+                {
+                    "name": "Virgins on the Bahamas!",
+                    "price": "350",
+                    "desc": "Bebida feita de suco de pêssego, groselha e suco de laranja. É um versão sem alcoól do tradicional 'Sex on the Bahamas!'",
+                    "pic": "virginsonthebahamas"
+                }
+            ],
+            "foods": [
+                {
+                    "name": "Bahamas Veggie Burger! ",
+                    "price": "350",
+                    "desc": "Hambúrguer feito com uma suculenta carne de soja, cebola caramelizada, salada tradicional e servido no pão de manteiga temperada com uma maionese artesanal;",
+                    "pic": "bahamasveggieburger"
+                },
+                {
+                    "name": "Chipottle Sandwich",
+                    "price": "350",
+                    "desc": "Sanduiche com suculentos pedaços de frango assado, o mais puro queijo suiço e acompanhado de um molho especial de mostarda e mel;",
+                    "pic": "chipottlesandwich"
+                },
+                {
+                    "name": "Bahamas Fries",
+                    "price": "315",
+                    "desc": "Porção de batatas rústicas bem fritinhas e sequinhas servida com molho mix de queijos e bacon;",
+                    "pic": "bahamasfries"
+                },
+                {
+                    "name": "Salada Ceaser",
+                    "price": "315",
+                    "desc": "Deliciosa salada de folhas romana, crótons bem crocantes, bastante queijo parmesão e o tradicional molho Ceaser do bahamas; ",
+                    "pic": "saladaceaserb"
+                },
+                {
+                    "name": "Poke my mamas!",
+                    "price": "315",
+                    "desc": "Prato típico do Havaí, que mistura cubos de peixe fresco, arroz japonês, hortaliças, molhos, castanhas e algumas frutas",
+                    "pic": "pokemymamas"
+                }
+            ],
+            "others":[
+                {
+                    "name": "Já vai de Bahamas tá pae!",
+                    "price": "1400",
+                    "desc": "2un de Bahamas Veggie Burger, 1un Crunch Bahamas e 2 Ice Tea e 1 energetico;",
+                    "pic": "bahamas-combo-one"
+                },
+                {
+                    "name": "Bahamas in the box!",
+                    "price": "2400",
+                    "desc": "3un de Bahamas Fries, 1un Poke my mamas, 1un Chipottle Sandwich, 3 Chá mate e 2un Virgins on the Bahamas!;",
+                    "pic": "bahamas-combo-two"
+                }
+            ]
+        
+            
+        }
+    ],
+    "realtor": [
+        {
+            "perm": "corretor.permissao",
+            "permleader": "corretorlider.permissao"
+        }
+    ]
+}

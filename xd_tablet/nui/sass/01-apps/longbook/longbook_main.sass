@@ -1,0 +1,76 @@
+.longbooks
+    display: none
+
+    header 
+        background: #A97C50
+        @extend %top_radius
+        height: 12vh
+        border-bottom: 2px solid #704E2F
+        
+        .container 
+            display: flex 
+            width: 40vw
+            justify-content: space-between
+            margin: 0 auto
+
+            h1 
+                color: #FFFFFF
+                font-family: $font-second
+                margin-top: 3vh
+                font-size: 3rem
+
+                @include md()
+                    font-size: 2.4rem
+
+            .btn-circle 
+                @include button_circle(3vh,1.7rem,6vh,6vh)
+                padding-top: 1.8vh
+                background-color: #704E2F
+                margin: 3vh 0vw 0vh 0.5vw
+
+                @include md()
+                    @include button_circle(3vh,1.2rem,6vh,6vh)
+                    padding-top: 1.8vh
+
+                .fas 
+                    height: 100%
+                    width: 100%
+                    cursor: pointer
+
+            .home-books 
+                opacity: 0
+                transition: opacity 0.8s
+    
+    .lib 
+        background: #C6A282
+        height: 45.6vh
+        width: 100%
+        @extend %bottom_radius
+        @include scroll_bar(#ccc,#cead8f,5px)
+
+        &-section 
+            height: 23vh
+            border-right: 2vw solid #B6895F
+            border-left: 2vw solid #B6895F
+            border-bottom: 3vh solid #704E2F
+            border-top: 3vh solid #B6895F
+
+            &-page 
+                width: 100%
+                height: 100%
+                display: flex
+                justify-content: space-around
+
+                &-book
+                    width: 19%
+                    height: 100%
+                    cursor: pointer
+
+                    img 
+                        object-fit: contain
+                        height: 100%
+                        width: 100%
+                        transition: transform .5s
+
+                        &:hover 
+                            transform: scale(1.1)

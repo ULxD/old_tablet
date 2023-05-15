@@ -1,0 +1,70 @@
+{
+    "outlet": [
+        {
+            "name": "Take Care",
+            "type": "Clinica de Psicologia",
+            "description": "",
+            "logo": "takecare"
+        },
+        {
+            "name": "Natural Beauty",
+            "type": "Cirurgia Plástica",
+            "description": "",
+            "logo": "naturalbeauty"
+        },
+        {
+            "name": "Mendes Spá",
+            "type": "Makes",
+            "description": "",
+            "logo": "spamendes"
+        },
+        {
+            "name": "Hot Speed",
+            "type": "Oficina Mecânica",
+            "description": "",
+            "logo": "hots"
+        },
+        {
+            "name": "Bennys",
+            "type": "Oficina Mecânica",
+            "description": "",
+            "logo": "bennys"
+        },
+        {
+            "name": "Jet Lag",
+            "type": "Aviação",
+            "description": "",
+            "logo": "jetlagg"
+        },
+        {
+            "name": "xD AutoShop",
+            "type": "Loja Automotiva",
+            "description": "",
+            "logo": "xdauto"
+        },
+        {
+            "name": "MerryWeather",
+            "type": "Segurança Corp",
+            "description": "",
+            "logo": "merry"
+        },
+        {
+            "name": "Long Beach Love",
+            "type": "Sexy Shop",
+            "description": "",
+            "logo": "longlove"
+        },
+        {
+            "name": "Taxi",
+            "type": "Serviço de Transporte",
+            "description": "",
+            "logo": "taxi"
+        },
+        {
+            "name": "Focco",
+            "type": "Estudio de fotografia",
+            "description": "",
+            "logo": "focco"
+        }
+    ]
+}

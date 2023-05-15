@@ -1,0 +1,142 @@
+#cars, #cycles, #truck
+    display: none
+
+    .listconce
+        position: absolute
+        top: 20.8%  
+        left: 50%
+        transform: translate(-50%,-50%)
+        display: flex
+        overflow: hidden
+        background: white
+        height: 4vh
+        width: 100%
+        margin: 0
+        padding: 0
+
+        h1 
+            width: 100%
+            font-family: $font-dealer
+            text-align: center
+            font-size: 1.8rem
+            color: $primary-color-dealership
+            font-weight: bolder
+
+        li 
+            list-style: none
+            height: 4vh
+            width: 5.6vw
+            border-bottom: 1px solid $primary-color-dealership
+
+            a 
+                position: relative
+                display: inline-block
+                color: rgb(17, 16, 16)
+                text-decoration: none
+                width: 5.3vw
+                height: 60px
+                text-align: center
+                line-height: 60px
+                bottom: 12px
+                font-size: 0.9rem
+                font-family: $font-dealer
+                font-weight: bolder
+
+            #shadow 
+                position: absolute
+                top: 90%
+                height: 20% 
+                width: calc(85% / 9)
+                background: $primary-color-dealership
+                z-index: -1
+                transition: 0.6s
+
+            &:nth-child(1).active ~ #shadow
+                left: 0
+            
+            &:nth-child(2).active ~ #shadow
+                left: 12%
+            
+            &:nth-child(3).active ~ #shadow
+                left: 23%
+            
+            &:nth-child(4).active ~ #shadow
+                left: 34%
+            
+            &:nth-child(5).active ~ #shadow
+                left: 45%
+            
+
+            &:nth-child(6).active ~ #shadow
+                left: 56%
+            
+
+            &:nth-child(7).active ~ #shadow
+                left: 67%
+            
+
+            &:nth-child(8).active ~ #shadow
+                left: 78%
+            
+
+            &:nth-child(9).active ~ #shadow
+                left: 90%
+            
+
+    section
+        width: 100%
+        height: 43.9vh
+        background-color: rgb(255, 255, 255)
+        @extend %bottom_radius 
+
+        ul 
+            margin-top: 3.6vh
+            display: flex
+            flex-wrap: wrap
+            overflow: scroll
+            overflow-x: hidden
+            height: 43.9vh
+            width: 100%
+            padding: 0
+
+            &::-webkit-scrollbar
+                width: 5px
+                background-color: rgba(49, 49, 49, 0.719)
+                border-bottom-right-radius: 5vh
+            
+            &::-webkit-scrollbar-thumb
+                background-color: $primary-color-dealership
+                border-top-right-radius: 10vh
+                border-bottom-right-radius: 10vh
+
+            li 
+                list-style: none
+                height: 50%
+                width: calc(100% / 3)
+                text-align: center
+                border: 1px solid rgba(0, 0, 0, 0.075)
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+
+                img 
+                    width: 70%
+                    height: 60%
+                    margin-top: 1.5vh
+                    border-radius: 7%
+
+                h3 
+                    font-family: $font-dealer
+                    font-size: 1.2rem
+                    font-weight: bolder
+                    margin-top: 1vh
+
+                .infos 
+                    display: flex 
+                    width: 100%
+                
+                    h4 
+                        font-family: $font-dealer
+                        font-size: 1.1rem
+                        font-weight: bolder
+                        color: rgb(114, 114, 114)
+                        width: 50%
+            

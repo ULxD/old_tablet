@@ -1,0 +1,753 @@
+{
+    "penalcode": [
+        {
+            "artigo": "1",
+            "crime": "Ocultação de face",
+            "multa": "17 MIL",
+            "pena": "-",
+            "tipicacao": "Utilizar equipamento com intuito de esconder a face, ocultando a identidade.(Em caso de reincidência, a pena dobra)"
+        },
+        {
+            "artigo": "2",
+            "crime": "Atentado ao Pudor",
+            "multa": "15 MIL",
+            "pena": "20M",
+            "tipicacao": "Exibir partes íntimas(genitálias) em público ou constranger terceiro por atos de conotação sexual e/ ou obscenos"
+        },
+        {
+            "artigo": "3",
+            "crime": "Corridas ilegais",
+            "multa": "10 MIL",
+            "pena": "50M",
+            "tipicacao": "São vedadas corridas sem autorização. Neste crime, não admite placa clonada, dinheiro sujo."
+        },
+        {
+            "artigo": "4",
+            "crime": "Perturbação da Paz",
+            "multa": "5 MIL",
+            "pena": "15M",
+            "tipicacao": "É vedado perturbar a paz,impedir o trabalho de outros moradores com músicas, gritos e etc."
+        },
+        {
+            "artigo": "5",
+            "crime": "Exercício Ilegal da Prof",
+            "multa": "10 MIL",
+            "pena": "20M",
+            "tipicacao": "Exercer profissão ou atividade econômica ou anunciar que a exerce, sem preencher as condições a que por lei está subordinado o seu exercício"
+        },
+        {
+            "artigo": "6",
+            "crime": "Falsidade ideológica",
+            "multa": "8 MIL",
+            "pena": "25M",
+            "tipicacao": "Se passar por pessoa diversa para auferir vantagens."
+        },
+        {
+            "artigo": "7",
+            "crime": "Ameaça",
+            "multa": " 5 MIL",
+            "pena": "15M",
+            "tipicacao": "É vedado o uso de ameaça para finalidades de qualquer espécie."
+        },
+        {
+            "artigo": "8",
+            "crime": "Incitação",
+            "multa": "20 MIL",
+            "pena": "45M",
+            "tipicacao": "Incitar, publicamente, a prática de crime"
+        },
+        {
+            "artigo": "9",
+            "crime": " Dívidas",
+            "multa": "-",
+            "pena": "15M",
+            "tipicacao": "Contrair dívidas e recusar pagá-las por razões alheias. Cabe processo judicial."
+        },
+        {
+            "artigo": "10",
+            "crime": "Má Utilização do Porte",
+            "multa": "25 MIL",
+            "pena": "Porte R",
+            "tipicacao": "Sacar arma sem necessidade. Utilizar coldre que a exiba ou deixar claro sua posse com o intuito de ocasionar medo a terceiros. O Porte será cassado, a depender da gravidade do ocorrido."
+        },
+        {
+            "artigo": "11",
+            "crime": "Celular no presidio",
+            "multa": "5 MIL",
+            "pena": "15M",
+            "tipicacao": "Utilizar telefone-celular dentro do presídio de Long Beach."
+        },
+        {
+            "artigo": "12",
+            "crime": "Difamação",
+            "multa": "20 MIL",
+            "pena": "15M",
+            "tipicacao": "Ofender a dignidade ou decoro de alguém, cabe processo, indiquem advogados."
+        },
+        {
+            "artigo": "13",
+            "crime": "Injúria",
+            "multa": "15 MIL",
+            "pena": "-",
+            "tipicacao": "Ofender diretamente uma pessoa"
+        },
+        {
+            "artigo": "14",
+            "crime": "Calúnia",
+            "multa": "20 MIL",
+            "pena": "18M",
+            "tipicacao": "Acusar alguém de praticar crime sem tê-lo feito."
+        },
+        {
+            "artigo": "15",
+            "crime": "Ameaça",
+            "multa": "5 MIL",
+            "pena": "15M",
+            "tipicacao": "É vedado o uso de ameaça para finalidades de qualquer espécie."
+        },
+        {
+            "artigo": "16",
+            "crime": "Omissão de socorro",
+            "multa": "8 MIL",
+            "pena": "15M",
+            "tipicacao": "Deixar de prestar auxílio a alguém que encontra-se em estado de precisão."
+        },
+        {
+            "artigo": "17",
+            "crime": "Latrocínio",
+            "multa": "30 MIL",
+            "pena": "90M",
+            "tipicacao": "Roubo com Resultado Morte."
+        },
+        {
+            "artigo": "18",
+            "crime": "Lesão Corporal",
+            "multa": "10 MIL",
+            "pena": "15M",
+            "tipicacao": "É vedado o uso de violência física contra terceiro."
+        },
+        {
+            "artigo": "19",
+            "crime": "Stalking",
+            "multa": "10 MIL",
+            "pena": "15M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "20",
+            "crime": "Abandono de incapaz",
+            "multa": " 50 MIL",
+            "pena": "40M",
+            "tipicacao": "Abandonar a pessoa que está sob seu cuidado, guarda, vigilância e que seja incapaz de se defender dos riscos resultantes do abandono."
+        },
+        {
+            "artigo": "21",
+            "crime": "MAUS TRATOS",
+            "multa": "50 MIL",
+            "pena": "40M",
+            "tipicacao": "Expor em risco a vida ou a saúde de quem está sob sua autoridade, guarda ou vigilância."
+        },
+        {
+            "artigo": "22",
+            "crime": "Homicídio Culposo",
+            "multa": "20 MIL",
+            "pena": "50M",
+            "tipicacao": "Cometido por Imprudência, Negligência ou Imperícia. Não há dolo, porém assume-se o risco da produção da morte de terceiro."
+        },
+        {
+            "artigo": "23",
+            "crime": "Homicídio Doloso",
+            "multa": "30 MIL",
+            "pena": "100M",
+            "tipicacao": "Consiste em matar alguém com a intenção do ato."
+        },
+        {
+            "artigo": "24",
+            "crime": "Homicídio Qualificado",
+            "multa": "35 MIL",
+            "pena": "250M",
+            "tipicacao": "Aquele que empregue meios cruéis; Que se faça por fim de pagamento (encomenda); Que tenha como motivo, ou razão torpe;"
+        },
+        {
+            "artigo": "25",
+            "crime": "Massacre",
+            "multa": "70 MIL",
+            "pena": "300M",
+            "tipicacao": "Caracteriza-se pelo assassinato de 4 ou mais pessoas em mesmo local, data e horário"
+        },
+        {
+            "artigo": "26",
+            "crime": "Terrorismo",
+            "multa": "80 MIL",
+            "pena": "120M",
+            "tipicacao": "Valer-se de atos que visem impacto social, depredando a ordem e causando caos. Uso sistemático do terror."
+        },
+        {
+            "artigo": "27",
+            "crime": "Sequestro",
+            "multa": "40 MIL",
+            "pena": "50M",
+            "tipicacao": "Adiciona-se 20M para cada civil sequestrado."
+        },
+        {
+            "artigo": "28",
+            "crime": "Estupro/Abuso",
+            "multa": "-",
+            "pena": "MORTE",
+            "tipicacao": "Casos pertinentes ao Supremo Tribunal."
+        },
+        {
+            "artigo": "29",
+            "crime": "Homofobia, Transfobia, Racismo ou, Intolerância Religiosa em Geral",
+            "multa": "-",
+            "pena": "MORTE",
+            "tipicacao": "Casos pertinentes ao Supremo Tribunal."
+        },
+        {
+            "artigo": "30",
+            "crime": "Tráfico de Drogas",
+            "multa": "10 MIL",
+            "pena": "X M",
+            "tipicacao": " 6 - 29= 15M / 30 - 40= 30M / 40 + = 1 mês a cada droga. Não pode ser incluído o crime de fuga de abordagem, dinheiro sujo e placa clonada."
+        },
+        {
+            "artigo": "31",
+            "crime": "Tráfico de Órgãos",
+            "multa": "10 MIL",
+            "pena": "20M",
+            "tipicacao": "Adicionam-se 5 meses a cada órgão."
+        },
+        {
+            "artigo": "32",
+            "crime": "Tráfico de Armas e Munições",
+            "multa": "15 MIL",
+            "pena": "40M",
+            "tipicacao": "Adicionam-se 5 meses a cada arma. Configura-se ao ser encontrado com 3 ou mais unidades. *Configura-se quando o sujeito é encontrado com 30 munições ou mais (e não com armas)."
+        },
+        {
+            "artigo": "33",
+            "crime": "Porte Ilegal (Arm. Leve)",
+            "multa": "15 MIL",
+            "pena": "25M",
+            "tipicacao": "Adiciona-se 1 mês para cada 10 munições encontradas."
+        },
+        {
+            "artigo": "34",
+            "crime": "Porte Ilegal (Arm. Médio)",
+            "multa": "15 MIL",
+            "pena": "30M",
+            "tipicacao": "Adiciona-se 1 mês para cada 10 munições encontradas."
+        },
+        {
+            "artigo": "35",
+            "crime": "Porte Ilegal (Arm. Pesad)",
+            "multa": "25 MIL",
+            "pena": "50M",
+            "tipicacao": "Adiciona-se 1 mês para cada 10 munições encontradas."
+        },
+        {
+            "artigo": "36",
+            "crime": "Porte Ilegal de Munição",
+            "multa": "10 MIL",
+            "pena": "20M",
+            "tipicacao": "Adiciona-se 5 meses para cada 10 munições encontradas."
+        },
+        {
+            "artigo": "37",
+            "crime": "Porte de Dinheiro I",
+            "multa": "10%",
+            "pena": "10M",
+            "tipicacao": "Adiciona-se 1 mês para cada MIL doláres."
+        },
+        {
+            "artigo": "38",
+            "crime": "Veículo blindado",
+            "multa": "5%",
+            "pena": "Det",
+            "tipicacao": "Veículo com revestimento balístico sem a devida documentação. Se na terceira abordagem, persistir irregular, acione a promotoria para retirada do veículo."
+        },
+        {
+            "artigo": "39",
+            "crime": "Equipamento Policial Ou Balístico",
+            "multa": "10 MIL",
+            "pena": "5M",
+            "tipicacao": "Trajes e Equipamentos Policiais são exclusivos de uso da força policial,  bem como equipamentos balísticos (tais como colete)"
+        },
+        {
+            "artigo": "40",
+            "crime": "Algema",
+            "multa": "10MIL",
+            "pena": "-",
+            "tipicacao": "Aplica-se a partir de duas algemas o valor de 10 mil dólares para cada algema portada."
+        },
+        {
+            "artigo": "41",
+            "crime": "Lock Pick / Cartão Key",
+            "multa": "10 MIL",
+            "pena": "15M",
+            "tipicacao": "Adiciona-se 5M a cada unidade."
+        },
+        {
+            "artigo": "42",
+            "crime": "Master Pick",
+            "multa": "10 MIL",
+            "pena": "20M",
+            "tipicacao": "Adiciona-se 5M a cada unidade."
+        },
+        {
+            "artigo": "43",
+            "crime": "Capuz",
+            "multa": "5 MIL",
+            "pena": "5M",
+            "tipicacao": "Adiciona-se 5M a cada unidade."
+        },
+        {
+            "artigo": "44",
+            "crime": "Coldre",
+            "multa": "20 MIL",
+            "pena": "8M",
+            "tipicacao": "É permitido  o uso de Coldre (Em serviço) para membros da segurança privada, pública e  área jurídica. Detentores do Porte Militar  podem utilizá-lo também fora de serviço."
+        },
+        {
+            "artigo": "45",
+            "crime": "Mercadoria sem comprovante",
+            "multa": "-",
+            "pena": "-",
+            "tipicacao": "A Partir de 50 unidades de qualquer item sem comprovante de local de aquisição ou nota fiscal, os itens poderão ser apreendidos."
+        },
+        {
+            "artigo": "46",
+            "crime": "Lavagem de Dinheiro",
+            "multa": "100 MIL",
+            "pena": "180M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "47",
+            "crime": "Pólvora",
+            "multa": "5 MIL",
+            "pena": "20M",
+            "tipicacao": "Reter consigo mais de 50 unidades de Pólvora. (Adicionam-se 5 Meses a Cada 10 Unidades Extras"
+        },
+        {
+            "artigo": "48",
+            "crime": "C4",
+            "multa": "30 MIL",
+            "pena": "50M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "49",
+            "crime": "NITRO",
+            "multa": "10 MIL",
+            "pena": "10M",
+            "tipicacao": "Adiciona-se 5M a cada unidade."
+        },
+        {
+            "artigo": "50",
+            "crime": "Estacionar em local exclusivo para Taxistas",
+            "multa": "8 MIL",
+            "pena": "-",
+            "tipicacao": "Estacionar em área designada  a Taxistas"
+        },
+        {
+            "artigo": "51",
+            "crime": "Estacionar em Local Proíbido.",
+            "multa": "8 MIL",
+            "pena": "-",
+            "tipicacao": "Estacionar em faixa vermelha ou local proibido."
+        },
+        {
+            "artigo": "52",
+            "crime": "Abandono de bicicleta alugada",
+            "multa": "5 MIL",
+            "pena": "-",
+            "tipicacao": "Alugar bicicletas e abandonar + pagamento de danos causados (caso haja)"
+        },
+        {
+            "artigo": "53",
+            "crime": "Estacionar na Contramão",
+            "multa": "5 MIL",
+            "pena": "-",
+            "tipicacao": "Estacionar na contramão."
+        },
+        {
+            "artigo": "54",
+            "crime": "Trafegar na Contramão",
+            "multa": "8 MIL",
+            "pena": "-",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "55",
+            "crime": "Abandono de Veículo Próprio",
+            "multa": "10 MIL",
+            "pena": "-",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "56",
+            "crime": "Abandono de Veículo de Trabalho",
+            "multa": "12 MIL",
+            "pena": "-",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "57",
+            "crime": "Direção Perigosa (Alta Velocidade)",
+            "multa": "10  MIL",
+            "pena": "-",
+            "tipicacao": "Oferecer perigo a si mesmo ou a terceiro mediante direção perigosa e/ou velocidade excessiva. Região da praça - 80 km. Cidade - 100 km."
+        },
+        {
+            "artigo": "58",
+            "crime": "Desrespeito à Sinalização",
+            "multa": "1 MIL",
+            "pena": "-",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "59",
+            "crime": "Utilização de Veículo Danificado",
+            "multa": "12 MIL",
+            "pena": "X",
+            "tipicacao": "Andar com carro que necessite visivelmente de reparos. Não se aplica a situações onde o veículo se quebra durante fuga."
+        },
+        {
+            "artigo": "60",
+            "crime": "Atropelamento Culposo",
+            "multa": "15 MIL",
+            "pena": "10M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "60 A",
+            "crime": "Atropelamento Coletivo",
+            "multa": "10 MIL",
+            "pena": "10M",
+            "tipicacao": "Atropelar 2 ou mais pessoas, adiciona-se 3 meses por pessoa e 3 mil de multa por pessoa atropelada."
+        },
+        {
+            "artigo": "61",
+            "crime": "Pilotar sem Licença Aérea",
+            "multa": "45 MIL",
+            "pena": "-",
+            "tipicacao": "Pilotar sem licença devidamente expedida por empresa autorizada."
+        },
+        {
+            "artigo": "61 A",
+            "crime": "Pouso não autorizado",
+            "multa": "40 MIL",
+            "pena": "-",
+            "tipicacao": "Pousar sem prévia autorização em local privado ou público."
+        },
+        {
+            "artigo": "61 B",
+            "crime": "Pilotar sem equipamento de segurança",
+            "multa": "15 MIL",
+            "pena": "-",
+            "tipicacao": "Pilotar sem que haja pára-quedas suficientes para todos que estiverem a bordo. (Somar o valor por pessoa e multar o piloto)"
+        },
+        {
+            "artigo": "62",
+            "crime": "Planar baixo",
+            "multa": "25 MIL",
+            "pena": "-",
+            "tipicacao": "Pilotar em perímetro urbano abaixo de mil pés e abaixo de quinhentos pés em perímetros rurais ou de zona residencial."
+        },
+        {
+            "artigo": "63",
+            "crime": "Dirigir Embriagado (Entorpecido)",
+            "multa": "5 MIL",
+            "pena": "A",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "64",
+            "crime": "Placa Clonada",
+            "multa": "10 MIL",
+            "pena": "40M",
+            "tipicacao": "Ser pego com veículo de placa clonada."
+        },
+        {
+            "artigo": "65",
+            "crime": "Falta de Representação",
+            "multa": "12 MIL",
+            "pena": "-",
+            "tipicacao": "Frente ao roubo/furto de veículos, se faz necessário a criação de um Boletim de Ocorrência. O proprietário de veículo furtado que se envolve em ato ilícito e não constitui Boletim junto a Polícia, poderá ter o carro apreendido e multa no valor de 12 mil, podendo, inclusive ser julgado, a depender do caso concreto, pelo crime cometido por aquele que detinha seu veículo  no momento da ação."
+        },
+        {
+            "artigo": "66",
+            "crime": "Furto",
+            "multa": "14 MIL",
+            "pena": "25M",
+            "tipicacao": "Subtrair coisa alheia móvel sem emprego de violência ou grave ameaça."
+        },
+        {
+            "artigo": "67",
+            "crime": "Roubo",
+            "multa": "23 MIL",
+            "pena": "35M",
+            "tipicacao": "Subtrair coisa alheia móvel com o emprego de violência ou grave ameaça."
+        },
+        {
+            "artigo": "68",
+            "crime": "Receptação",
+            "multa": "15 MIL",
+            "pena": "20M",
+            "tipicacao": "Receber/Adquirir/transportar  algo que seja de origem criminosa, que a pessoa desconheça a procedência."
+        },
+        {
+            "artigo": "69",
+            "crime": "Invasão de Propriedade",
+            "multa": "10 MIL",
+            "pena": "15M",
+            "tipicacao": "Propriedade  Privada."
+        },
+        {
+            "artigo": "70",
+            "crime": "Desmanche de Peças de Veículos Furtados",
+            "multa": "25 MIL",
+            "pena": "30M",
+            "tipicacao": "Envolver-se de qualquer maneira, em ações que consistem no desmanche de veículos de terceiros. (transporte, aquisição, venda, receptação)."
+        },
+        {
+            "artigo": "71",
+            "crime": "Assalto a loja de departamento.",
+            "multa": "-",
+            "pena": "40M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "71 A",
+            "crime": "Assalto a loja de departamentos com refém.",
+            "multa": "-",
+            "pena": "45M",
+            "tipicacao": "Adiciona 7 meses por cada refém."
+        },
+        {
+            "artigo": "72",
+            "crime": "Assalto a Loja de Bebidas",
+            "multa": "-",
+            "pena": "35M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "72 A",
+            "crime": "Assalto a Barbearia",
+            "multa": "-",
+            "pena": "30M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "72 B",
+            "crime": "Assalto a Barbearia",
+            "multa": "-",
+            "pena": "35M",
+            "tipicacao": "Adiciona 5 meses por refém."
+        },
+        {
+            "artigo": "73",
+            "crime": "Assalto à açougue/galinheiro",
+            "multa": "-",
+            "pena": "70M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "74",
+            "crime": "Assalto à Ammunition",
+            "multa": "-",
+            "pena": "30M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "75",
+            "crime": "Assalto Caixa/ATM",
+            "multa": "-",
+            "pena": "20M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "76",
+            "crime": "Assalto à Caixa Rg.",
+            "multa": "-",
+            "pena": "15M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "77",
+            "crime": "Assalto à Residência",
+            "multa": "-",
+            "pena": "10M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "78",
+            "crime": "Assalto a Banco de Pequeno Porte",
+            "multa": "-",
+            "pena": "100M",
+            "tipicacao": "Referente aos Bancos Fleeca."
+        },
+        {
+            "artigo": "78 A",
+            "crime": "Assalto a Banco de Pequeno Porte com refém.",
+            "multa": "-",
+            "pena": "110M",
+            "tipicacao": "Adiciona 8 meses por cada refém."
+        },
+        {
+            "artigo": "79",
+            "crime": "Assalto a Banco de Médio Porte",
+            "multa": "",
+            "pena": "150M",
+            "tipicacao": "Referente ao Banco de Paleto."
+        },
+        {
+            "artigo": "79 A",
+            "crime": "Assalto a Banco de Médio Porte com refém",
+            "multa": "-",
+            "pena": "160M",
+            "tipicacao": "Adiciona 10 meses por cada refém."
+        },
+        {
+            "artigo": "80",
+            "crime": "Assalto ao Banco Central",
+            "multa": "-",
+            "pena": "200M",
+            "tipicacao": "Referente ao Banco Central."
+        },
+        {
+            "artigo": "80 A",
+            "crime": "Invasão ao Fort Zancudo",
+            "multa": "-",
+            "pena": "150M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "81",
+            "crime": "Assalto ao Laboratório Humane",
+            "multa": "-",
+            "pena": "200M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "82",
+            "crime": "Assalto a Joalheria",
+            "multa": "-",
+            "pena": "100M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "82 A",
+            "crime": "Assalto a Joalheria com refém",
+            "multa": "",
+            "pena": "110M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "83",
+            "crime": " Prevaricação",
+            "multa": "75 MIL",
+            "pena": "60M",
+            "tipicacao": "Retardar, deixar de praticar ou praticar indevidamente ato de ofício para satisfazer interesse ou sentimento pessoal"
+        },
+        {
+            "artigo": "84",
+            "crime": "Concussão",
+            "multa": "50 MIL",
+            "pena": "45M",
+            "tipicacao": "Exigir, para si ou para outrem, em razão da função, vantagem indevida."
+        },
+        {
+            "artigo": "85",
+            "crime": "Corrupção passiva",
+            "multa": "45 MIL",
+            "pena": "45M",
+            "tipicacao": "Solicitar ou receber, para si ou para outrem, direta ou indiretamente,  vantagem indevida, ou aceitar promessa de tal vantagem"
+        },
+        {
+            "artigo": "86",
+            "crime": "Corrupção ativa",
+            "multa": "40 MIL",
+            "pena": "35M",
+            "tipicacao": "Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício"
+        },
+        {
+            "artigo": "87",
+            "crime": "Desacato à autoridade",
+            "multa": "10 MIL",
+            "pena": "20M",
+            "tipicacao": "Desacatar servidor público no exercício de sua função. *Cada Desacato acumula +10% do Valor da Pena e 2 mil de Multa."
+        },
+        {
+            "artigo": "88",
+            "crime": "Desobediência ou Resistência ",
+            "multa": "10 MIL",
+            "pena": "20M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "89",
+            "crime": "Fuga de abordagem Policial",
+            "multa": "15  MIL",
+            "pena": "25M",
+            "tipicacao": "Fugir de abordagem policial"
+        },
+        {
+            "artigo": "89 A",
+            "crime": "Tentativa de Fuga de abordagem Policial",
+            "multa": "7 MIL",
+            "pena": "20M",
+            "tipicacao": "Tentar se evadir de abordagem policial e por razões alheias, não conseguiu."
+        },
+        {
+            "artigo": "89 B",
+            "crime": "Fuga da Prisão",
+            "multa": "15 MIL",
+            "pena": "25M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "90",
+            "crime": "Obstrução da justiça",
+            "multa": "10 MIL",
+            "pena": "15M",
+            "tipicacao": "Atrapalhar o andamento de investigações,operações ou serviço  policial . Ocultação de Prova, -gativa de Repasse de Informações Pertinentes."
+        },
+        {
+            "artigo": "91",
+            "crime": "Multas pendentes",
+            "multa": "-",
+            "pena": "10M",
+            "tipicacao": "Primeiro notifica-se, e após 48 horas, caso não haja pagamento, seguir com penhora de bens."
+        },
+        {
+            "artigo": "92",
+            "crime": "Perjúrio",
+            "multa": "10 MIL",
+            "pena": "15M",
+            "tipicacao": "Mentir no Tribunal."
+        },
+        {
+            "artigo": "93 A",
+            "crime": "Usurpação de função pública",
+            "multa": "80 MIL",
+            "pena": "15M",
+            "tipicacao": "-"
+        },
+        {
+            "artigo": "93",
+            "crime": "Destruir, inutilizar",
+            "multa": "10 MIL",
+            "pena": "-",
+            "tipicacao": "Destruir, inutilizar patrimônio público, acrescenta-se 3 mil de multa a cada patrimônio danificado."
+        },
+        {
+            "artigo": "94",
+            "crime": "Abandono de veículo público.",
+            "multa": "5 MIL",
+            "pena": "-",
+            "tipicacao": "Abandonar veículo público."
+        }
+    ]
+}

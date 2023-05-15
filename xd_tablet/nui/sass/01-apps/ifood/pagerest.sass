@@ -1,0 +1,162 @@
+.pagerest
+    display: auto
+
+    header 
+        width: 49.8vw
+        height: 12vh
+        background-color: #FEF0E3
+        border-bottom: 3px solid $brown-color
+        display: flex
+        @extend %top_radius
+
+        .fas 
+            @include button_circle(3vh,1.4rem,6vh,6vh)
+            padding-top: 1.95vh
+            background-color: $brown-color
+            margin: 3vh 0vw 0vh 0.5vw
+
+        .fa-home
+            margin: 3vh 2vw 0vh 2vw
+
+        .fa-shopping-cart
+            margin: 3vh 0vw 0vh 2.5vw
+            @include xxl()
+                margin-left: 1vw
+        
+        img 
+            width: 32vw
+            height: 9vh
+            margin-top: 1.3vh
+            border-radius: 1vh
+    
+    .titlerestaurantmain
+        height: 11vh
+        background-color: #FFFCFA
+        border-bottom: 2px solid #F9BB7D
+        display: flex
+
+        img
+            height: 9vh
+            width: 8vw
+            object-fit: contain
+            margin: 1vh 0vw 0vh 3vw
+
+        .titlerest
+            width: 25vw
+
+            h1
+                font-family: $font-second
+                color: #1D1D1B
+                font-weight: 900
+                margin: 2vh 0vw 0vh 2vw
+                @include lg()
+                    margin-top: 0.5vh
+
+            .statusrest
+                margin: 0vh 0vw 0vh 2vw
+                display: flex
+                width: 25vw
+
+                .openclose
+                    color: $red-color
+                    margin-left: 0.5vw
+                    margin-right: 0.7vw
+                
+                .fa-star 
+                    color: $yellow-color
+                    
+
+                .numbersavaibles
+                    color: $gray-color
+                    margin-left: 0.2vw
+        .options
+            display: flex
+            width: 16vw
+
+            .btn
+                color: white
+                background-color: $primary-color-ifood
+                width: 5.5vw
+                padding-top: 0.3vh
+                text-align: center
+                border-radius: 1vh
+                height: 2.5vh
+                margin: 5vh 0.3vw 0vh 0.3vw
+                border: 1px solid $primary-color-ifood
+                @include xxl()
+                    font-size: 0.85rem
+                @include lg()
+                    font-size: 0.75rem
+
+                &:hover
+                    background-color: white
+                    cursor: pointer
+                    color: $primary-color-ifood
+    .menurest
+        background-color: #FFFFFF
+        width: 100%
+        height: 34.5vh
+        padding: 2vh 1vw 0vh 1vw
+        @extend %bottom_radius
+        @include scroll_bar(#ccc,$primary-color-ifood,5px)
+        display: auto
+
+        h3
+            color: $gray-color
+            font-family: $font-main
+            font-size: 2rem
+            font-weight: 500
+            border-bottom: 3px dotted $gray-color
+            margin-bottom: 1vh
+            
+        
+        .card
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+
+            .itemmenu
+                width: 47%
+                height: 12vh
+                margin: 1vh 0.5vw 1vh 0.5vw
+                border: 1.5px solid $gray-color
+                border-radius: 1vh
+                display: flex
+
+
+                .leftbox
+                    width: 70%
+
+                    h1
+                        font-size: 1.3rem
+                        font-family: $font-second
+                        font-weight: 900
+                        margin: 0.7vh 0vw 0vh 1vw
+                        height: 4vh
+                        @extend %text_longer
+                    
+                    p
+                        font-size: 0.8rem
+                        font-family: $font-second
+                        font-weight: 900
+                        color: $gray-color
+                        margin: 0vh 0vw 0vh 1vw
+                        height: 4.5vh
+                        @extend %text_longer
+
+                    .price
+                        color: $green-color
+                        margin: 0vh 0vw 0vh 1vw
+                img 
+                    width: 30%
+                    height: 90%
+                    object-fit: contain
+                    margin-top: 1vh
+                        
+                
+
+
+                    
+                    
+
+            

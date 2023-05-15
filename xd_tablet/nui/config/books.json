@@ -1,0 +1,119 @@
+{
+    "books": [
+
+            {   "SectionOne": [
+                {
+                    "name": "Código Penal",
+                    "id": 1,
+                    "bcolor": "#3e3d60",
+                    "imgurl": "imgs/longbooks/penalcode.png",
+                    "page": [
+                        {
+                            "title": "Código Penal",
+                            "description": "A lei acima de tudo"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kamasutra",
+                    "id": 2,
+                    "bcolor": "#af56a6",
+                    "imgurl": "imgs/longbooks/kamasutra.png",
+                    "page": [
+                        {
+                            "title": "Kamasutra",
+                            "description": "O guia definitivo para o amor",
+                            "text": [
+                                {
+                                    "right": "Este livro é voltado para pessoas maiores de 18 anos e apresenta conteúdo adulto. Caso não esteja dentro desta faixa etária, desconsidere a leitura e os ensinamentos aqui representados."
+                                },
+                                {
+                                    "commands": ["1 – Canguru Perneta (ativo)", "2 – Canguru Perneta (passivo)", "3 – De quatro (ativo)", "4 – De quatro (passivo)", "5 – Receber oral", "6 – Fazer oral", "7 – Receber oral (2)", "8 – Fazer oral (2)", "9 – Posição de Lótus (ativo)",  "10 – Posição de Lótus (passivo)",  "11 – Lótus Invertido (ativo)", "12 – Lótus Invertido (passivo)", "13 – Cowgirl (ativo)", "14 – Cowgirl (passivo)", "15 – De pé (ativo)" ,"16 – De pé (passivo)"]
+                                },
+                                {
+                                    "commands": ["17 – Cowgirl",
+                                        "18 – Oral",
+                                        "19 – Oral 2",
+                                        "20 – Sentada",
+                                        "21 – Sentada 2",
+                                        "22 – Sentada 3",
+                                        "23 – Sentada (Completo)",
+                                        "24 – Oral (Completo)",
+                                        "25 – Sentada 2 (Completo)",
+                                        "26 – Oral 2 (Completo)",
+                                        "27 – Sentada 3 (Completo)"]
+                                },
+                                {
+                                    "commands": [
+                                    "e sexo: posição passiva de bruços",
+                                    "e sexo2: posição ativa 'metendo'",
+                                    "e sexo3: posição ativa 'sarrando no ar'",
+                                    "e sexo4: recebendo boquete no p1 do carro",
+                                    "e sexo5: fazendo boquete para o p1 (precisa estar no p2)",
+                                    "e sexo6: sentando para o p1 (precisa estar no p2) "]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Guia domiciliar",
+                    "id": 3,
+                    "bcolor": "#59a650",
+                    "imgurl": "imgs/longbooks/manual-de-locatarios.png",
+                    "page": [
+                        {
+                            "title": "Guia domiciliar",
+                            "description": "Como cuidar do seu lar",
+                            "text": [
+                                {
+                                    "commandsAcess": ["kick-everyone - Expulsar quem está dentro da casa","kick-house [ID] -> Expulsar o ID que está dentro da casa","register-chest - Registrar o baú da casa","pay-tax [house_id] - Pagar a taxa da casa","show-tax [house_id] - Mostrar a taxa da casa","show-my-houses [house_id] - Mostrar suas casas no mapa","my-houses [house_id] - Mostrar o nome das suas casas","remove-permission [id] - Remover a permissão do ID definido","add-permission [id] - Adicionar a permissão ao ID definido"]                
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "SectionTwo": [
+                {
+                    "name": "Manual do carro",
+                    "id": 4,
+                    "bcolor": "#0073be",
+                    "imgurl": "imgs/longbooks/manual-do-carro.png",
+                    "page": [
+                        {
+                            "title": "Manual do carro",
+                            "description": "Disponivel em breve."
+                        }
+                    ]
+                },
+            
+                {
+                    "name": "Superdicas de etiquetas",
+                    "id": 5,
+                    "bcolor": "#ffd550 ",
+                    "imgurl": "imgs/longbooks/superdicas-de-etiqueta.png",
+                    "page": [
+                        {
+                            "title": "Superdicas de etiquetas",
+                            "description": "Disponivel em breve."
+                        }
+                    ]
+                },
+            
+                {
+                    "name": "Manual da tv",
+                    "id": 6,
+                    "bcolor": "#ff928f",
+                    "imgurl": "imgs/longbooks/manual-da-tv.png",
+                    "page": [
+                        {
+                            "title": "Manual da TV",
+                            "description": "sente-se no sofá e aprecie"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}    

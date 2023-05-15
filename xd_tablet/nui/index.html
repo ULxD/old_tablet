@@ -1,0 +1,743 @@
+<html>
+    <head>
+        <title>Tablet</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <!-- Link Swiper's CSS -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="css/swiper.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    
+
+    <body>
+        <div class="bkg">
+            <div class="tabletbordermain"> <!-- style="display: none;"  -->
+                <div class="tabletborder">
+                    <div class="tabletbox">
+                        <!--home--->
+                        <main class="home">
+                            <h2 class="time">00:00</h2>
+                            <h6 class="info"> <i class="fas fa-sun"></i> Long Beach </h6>
+                            <ul>
+                                <li class="lb" onclick="LongBookOpen()">
+                                    <h1>Long Books</h1>
+                                </li>
+                                <li class="wn" onclick="newsopen()">
+                                    <h1>Weazel News</h1>
+                                </li>
+                                <li class="lg" onclick="gamesopen()">
+                                    <h1>Long Games</h1>
+                                </li>
+                                <li class="lf" onclick="foodopen()">
+                                    <h1>Long Food</h1>
+                                </li>
+                                <li class="lo" onclick="outletopen()">
+                                    <h1>Long Outlet</h1>
+                                </li>
+                                <li class="ve" onclick="empsopen()">
+                                    <h1>Long Jobs</h1>
+                                </li>
+                                <li class="mz" onclick="realtoropen()">
+                                    <h1>Maze Group</h1>
+                                </li>
+                                <li class="de" onclick="dealershipopen()">
+                                    <h1>Dealership</h1>
+                                </li>
+                            </ul>
+                        </main>
+                        <!--home--->
+                        <!--ifood-inicio--->
+                        <div class="ifood">
+                            <div class="mainpage_ifood">
+                                <header>
+                                    <img class=" logoifood" onclick="foodmainmenu()" src="imgs/ifood/logo.png"alt="">
+                                    <h2> <span>LB</span> Food</h2>
+                                    <i onclick="foodclose()" class="fas exitmain fa-sign-out-alt"></i>
+                                </header>
+                                <div class="restaurantslist">
+                                    <ul class="boxrestadd"></ul>
+                                </div>
+                            </div>
+
+                            <div class="pagerest">
+                                
+                            </div>
+                            
+                            <div class="boxifood animate__animated animate__fadeIn">
+                            </div>
+                            
+                            <div class="cartifood">
+                                <div class="cartbox">
+                                    <div class="leftbox">
+                                        <div class="envelope">
+                                            <h1>Finalize seu pedido</h1>
+                                            <h2>Cyberpunk</h2>
+                                            <div class="boxcartlist">
+                                                <div class="foodslist list">
+                                                    <h3>Salgados</h3>
+                                                    <div class="item"> <span class="quantidade">40x</span> <span class="itemname">Pão de queijo</span> <span class="itemprice">$200</span></div>
+                                                </div>
+                                                <div class="division"></div>
+                                                <div class="candylist list">
+                                                <h3>Doces</h3>
+                                                <div class="item"> <span class="quantidade">40x</span> <span class="itemname">Pão de queijo</span> <span class="itemprice">$200</span></div>
+                                                </div>
+                                                <div class="division"></div>
+                                                <div class="drinklist list">
+                                                    <h3>Bebidas</h3>
+                                                    <div class="item"> <span class="quantidade">40x</span> <span class="itemname">Pão de queijo</span> <span class="itemprice">$200</span></div>
+                                                </div>
+                                                <div class="division"></div>
+                                                <div class="otherslist list">
+                                                h3>Outros</h3>
+                                                <div class="item"> <span class="quantidade">40x</span> <span class="itemname">Pão de queijo</span> <span class="itemprice">$200</span></div>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rightbox">
+                                        <div class="boxoptions">
+                                            <div class="optionbox">
+                                                <input class="radioinput chretirada" type="checkbox" name="retirada" id="" value="option1">
+                                                <h2>Retirada</h2>
+                                            </div>
+                                            <div class="optionbox">
+                                                <input class="radioinput" type="checkbox" name="entrega" id="" value="option2">
+                                                <h2>Entrega</h2>
+                                            </div>
+                                        </div>
+                                        <div class="totalprice">Total: <span class="greendiner">$3000</span></div>
+                                        <div onclick="finalizarPedido()" class="finish">Finalizar</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="avaiblespage">
+                            </div>
+
+                            <div class="about">
+                                <div class="container">
+                                    <div class="container-top boxbackground">
+                                        <div class="leftbox">
+                                            <h1 class="restTitle"></h1>
+                                            <p class="boxtext"></p>
+                                        </div>
+                                    </div>
+                                    <div class="container-middle">
+                                        <div class="topbox imgloc">
+
+                                        </div>
+                                        <div class="bottombox">
+                                            <div class="profile">
+                                                <img class="index1url" src="imgs/ifood/user.png"  alt="">
+                                                <div class="infosprofile">
+                                                    <h1 class="index1name">Nome e Sobrenome</h1>
+                                                    <h2>Proprietário</h2>
+                                                    <h4 class="index1email">@instagram</h4>
+                                                </div>
+                                            </div>
+                                            <div class="profile">
+                                                <img class="index2url" src="imgs/ifood/user.png"  alt="">
+                                                <div class="infosprofile">
+                                                    <h1 class="index2name">Nome e Sobrenome</h1>
+                                                    <h2>Sócio</h2>
+                                                    <h4 class="index2email">@instagram</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="container-bottom">
+                                        <div class="header">
+                                            <h1>Faça o seu agendamento</h1>
+                                        </div>
+                                        <main>
+                                            <form action="">
+                                                <div class="headerform">
+                                                    <label class="textform" for="inputEmail4">Nome</label>
+                                                    <input type="text" class="form-control agendName" id="inputEmail4" placeholder="">
+
+                                                    <label class="textform" for="inputEmail4">Passaporte</label>
+                                                    <input type="text" class="form-control agendPassport" id="inputEmail4" placeholder="">
+                                                </div>
+                                                <div class="mainform">
+                                                    <label class="textform" for="inputEmail4">Data</label>
+                                                    <input type="text" class="form-control agendDate" id="inputEmail4" placeholder="">
+
+                                                    <label class="textform" for="inputEmail4">Hora</label>
+                                                    <input type="text" class="form-control agendHour" id="inputEmail4" placeholder="">
+
+                                                    <label class="textform" for="inputEmail4">Telefone</label>
+                                                    <input type="text" class="form-control agendTel" id="inputEmail4" placeholder="">
+                                                </div>
+                                                <div class="footerform">
+                                                    <label class="textform" for="inputState">Tipo de agendamento</label>
+                                                    <select id="inputState" class="form-control agendType">
+                                                        <option selected>...</option>
+                                                        <option>Reserva</option>
+                                                        <option>Buffet</option>
+                                                        <option>Casamento</option>
+                                                        <option>Festa de criança</option>
+                                                        <option>Iate</option>
+                                                        <option>Resort</option>
+                                                        <option>Iate</option>
+                                                    </select>
+                                                </div>
+                                                <button type="submit" onclick="scheduling()" class="btn btn-primary prevDef">Enviar</button>
+                                            </form>
+                                        </main>
+                                        <footer onclick="menuadm()">
+                                            <h1>LB EMPRESAS</h1>
+                                        </footer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="adminpanel">
+                               <div class="adminbox">
+                                    <ul>
+                                        <li onclick="menuadmrequest()">
+                                            <i class="fas fa-concierge-bell"></i>
+                                            <p>Pedidos</p>
+                                        </li>
+                                        <li onclick="menuadmschedule()">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            <p>agendamentos</p>
+                                        </li>
+                                        <li onclick="menuadmteam()">
+                                            <i class="fas fa-users"></i>
+                                            <p>Equipe</p>
+                                        </li>
+                                        <li onclick="menuadmprofile()">
+                                            <i class="fas fa-address-book"></i>
+                                            <p>Perfil</p>
+                                        </li>
+                                        <li onclick="menuadmavaibles()">
+                                            <i class="fas fa-star"></i>
+                                            <p>Avaliações</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="adminrequest">
+                                     <header>
+                                        <p>Pedidos</p>
+                                        <i class="fas fa-concierge-bell"></i>
+                                    </header>
+                                    <div class="container pedidosContainer">
+
+                                        <div class="request-box">
+                                            <div class="request-box-flex">
+                                                <div class="request-box-block">
+                                                    <h2>Informações</h2>
+                                                    <h1>Nome: <span>Whelisson Dias</span></h1>
+                                                    <h1>Telefone: <span>333-333</span> </h1>
+                                                    <h1>Passaporte: <span>1</span> </h1>
+                                                    <h1>Tipo: <span>Entrega</span></h1>
+                                                </div>
+                                                <div class="request-box-block list">
+                                                    <h2>Pedido</h2>
+                                                    <div class="itemadd">
+                                                        <div class="quantidade">3x</div>
+                                                        <div class="itemname">Bolinho de Bacalhau</div>
+                                                        <div class="price">$200</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="finalbox">
+                                                <h2>Status do pedido</h2>
+                                                <div class="flex-buttons">
+                                                    <div class="acept btn">Aceitar Pedido</div>
+                                                    <div class="decline btn">Recusar Pedido</div>
+                                                    <div class="ready btn">O pedido está pronto</div>
+                                                    <div class="checked btn">Pedido entregue</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="request-box">
+                                            <div class="request-box-flex">
+                                                <div class="request-box-block">
+                                                    <h2>Informações</h2>
+                                                    <h1>Nome: <span>Whelisson Dias</span></h1>
+                                                    <h1>Telefone: <span>333-333</span> </h1>
+                                                    <h1>Passaporte: <span>1</span> </h1>
+                                                    <h1>Tipo: <span>Entrega</span></h1>
+                                                </div>
+                                                <div class="request-box-block list">
+                                                    <h2>Pedido</h2>
+                                                    <div class="itemadd">
+                                                        <div class="quantidade">3x</div>
+                                                        <div class="itemname">Bolinho de Bacalhau</div>
+                                                        <div class="price">$200</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="finalbox">
+                                                <h2>Status do pedido</h2>
+                                                <div class="flex-buttons">
+                                                    <div class="acept btn">Aceitar Pedido</div>
+                                                    <div class="decline btn">Recusar Pedido</div>
+                                                    <div class="ready btn">O pedido está pronto</div>
+                                                    <div class="checked btn">Pedido entregue</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="request-box">
+                                            <div class="request-box-flex">
+                                                <div class="request-box-block">
+                                                    <h2>Informações</h2>
+                                                    <h1>Nome: <span>Whelisson Dias</span></h1>
+                                                    <h1>Telefone: <span>333-333</span> </h1>
+                                                    <h1>Passaporte: <span>1</span> </h1>
+                                                    <h1>Tipo: <span>Entrega</span></h1>
+                                                </div>
+                                                <div class="request-box-block list">
+                                                    <h2>Pedido</h2>
+                                                    <div class="itemadd">
+                                                        <div class="quantidade">3x</div>
+                                                        <div class="itemname">Bolinho de Bacalhau</div>
+                                                        <div class="price">$200</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="finalbox">
+                                                <h2>Status do pedido</h2>
+                                                <div class="flex-buttons">
+                                                    <div class="acept btn">Aceitar Pedido</div>
+                                                    <div class="decline btn">Recusar Pedido</div>
+                                                    <div class="ready btn">O pedido está pronto</div>
+                                                    <div class="checked btn">Pedido entregue</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="adminschedule">
+                                    <header>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <p>Agendamentos</p>
+                                    </header>
+                                    <div class="schedule-box">
+                                        <ul>
+                                            <li>
+                                                <div class="left-box">
+                                                    <div class="top-box">
+                                                        <h1 class="name">Nome: <span></span></h1>
+                                                        <h1 class="passaport">Passaporte: <span></span></h1>
+                                                        <h1 class="phone">Telefone: <span></span></h1>
+                                                    </div>
+                                                    <div class="bottom-box">
+                                                        <h1>Informações de Agendamento</h1>
+                                                        <h3 class="date">Data: <span></span></h3>
+                                                        <h3 class="time">Horario: <span></span></h3>
+                                                        <h3 class="type">Tipo de agendamento: <span></span></h3>
+                                                    </div>
+                                                </div>
+                                                <div class="right-box">
+                                                    <button class="decline">Recusar</button>
+                                                    <button class="acept">Aceitar</button>
+                                                    <button class="ready">Reagendar</button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    
+
+                                </div>
+                                <div class="adminteam">
+                                    <div class="team-box">
+                                        <ul class="nonon"> 
+                                            <li>
+                                                <div class="top-box">
+                                                    <img src="https://cdn.discordapp.com/attachments/831635285816508416/911841103051882536/1637470376266.jpg" alt="">
+                                                    <div class="infos">
+                                                        <h2 class="name">Nome: <span>Brandon Dias</span></h2>
+                                                        <h2 class="passaport">Passaporte: <span>3</span></h2>
+                                                        <h2 class="role">Cargo: <span>Atendente</span></h2>
+                                                    </div>
+                                                </div>
+                                                <div class="middle-box">
+                                                    <ul>
+                                                        <li class="warning">
+                                                            <h1>Aviso 1</h1>
+                                                            <p>Só gada as funcionarias e não trabalha direito</p>
+                                                        </li>
+                                                        <li class="warning">
+                                                            <h1>Aviso 1</h1>
+                                                            <p>Só gada as funcionarias e não trabalha direito</p>
+                                                        </li>
+                                                        <li class="warning">
+                                                            <h1>Aviso 1</h1>
+                                                            <p>Só gada as funcionarias e não trabalha direito</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="bottom-box">
+                                                    <div class="countdown-warning">
+                                                        <div class="warning">
+                                                            <h1>Avisos</h1>
+                                                            <span>1</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-section">
+                                                        <button class="warning">Aviso</button>
+                                                        <button class="decline">Demitir</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="top-box">
+                                                    <img src="https://cdn.discordapp.com/attachments/831635285816508416/911841103051882536/1637470376266.jpg" alt="">
+                                                    <div class="infos">
+                                                        <h2 class="name">Nome: <span>Brandon Dias</span></h2>
+                                                        <h2 class="passaport">Passaporte: <span>3</span></h2>
+                                                        <h2 class="role">Cargo: <span>Atendente</span></h2>
+                                                    </div>
+                                                </div>
+                                                <div class="middle-box">
+                                                    <ul>
+                                                        <li class="warning">
+                                                            <h1>Aviso 1</h1>
+                                                            <p>Só gada as funcionarias e não trabalha direito</p>
+                                                        </li>
+                                                        <li class="warning">
+                                                            <h1>Aviso 1</h1>
+                                                            <p>Só gada as funcionarias e não trabalha direito</p>
+                                                        </li>
+                                                        <li class="warning">
+                                                            <h1>Aviso 1</h1>
+                                                            <p>Só gada as funcionarias e não trabalha direito</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="bottom-box">
+                                                    <div class="countdown-warning">
+                                                        <div class="warning">
+                                                            <h1>Avisos</h1>
+                                                            <span>1</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-section">
+                                                        <button class="warning">Aviso</button>
+                                                        <button class="decline">Demitir</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="response" style="display: none;">
+                                        <input class="textresponse respostinha" type="text">
+                                        <div class="div"></div>
+                                        <input class="btn-submit repostinha2" type="submit" value="Responder">
+                                    </div>
+                                </div>
+                                <div class="adminprofile">
+                                    <header>
+                                        <i class="fas fa-address-book"></i>
+                                        <p>Perfil</p>
+                                    </header>
+                                    <div class="section-profile">
+                                        <div class="section-profile-card">
+                                            <h1>Proprietario</h1>
+                                            <h2 class="name">Nome</h2>
+                                            <input class="form1name" type="text" name="name" id="name" placeholder="User">
+
+                                            <h2 class="picture">Foto</h2>
+                                            <input class="form1url" type="text" name="picture" id="picture" placeholder="url">
+
+                                            <h2 class="email">Instagram</h2>
+                                            <input class="form1email" type="text" name="email" id="email" placeholder="@user">
+
+                                            <button onclick="setPerfil('1')" class="btn">Atualizar</button>
+                                        </div>
+                                        <div class="section-profile-card">
+                                            <h1>Sócio</h1>
+                                            <h2 class="name">Nome</h2>
+                                            <input class="form2name" type="text" name="name" id="name" placeholder="User">
+
+                                            <h2 class="picture">Foto</h2>
+                                            <input class="form2url" type="text" name="picture" id="picture" placeholder="url">
+
+                                            <h2 class="email">Instagram</h2>
+                                            <input class="form2email" type="text" name="email" id="email" placeholder="@user">
+
+                                            <button onclick="setPerfil('2')" class="btn">Atualizar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="adminavaibles" style="display: none;">
+                                    <header>
+                                        <i class="fas fa-star"></i>
+                                        <p>Avaliações</p>
+                                    </header>
+                                    <div class="container">
+                                        <div class="avaible-box">
+                                            <ul>
+                                                <li>
+                                                    <i class="far fa-user"></i>
+                                                    <div class="infos">
+                                                        <h1>Brandon Dias</h1>
+                                                        <div class="section-infos">
+                                                            <h3 class="note">5.0</h3>
+                                                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                                            <div class="date">21/11/2020</div>
+                                                        </div>
+                                                        <p class="avaible-text">
+                                                            Restaurante top, ire voltar novssssssssssssssssssssssssmente! Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!Restaurante top, ire voltar novamente!
+                                                        </p>
+                                                    </div>
+                                                    <i class="fas fa-comment"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="response" style="display: none;">
+                                            <input class="textresponse respostinha" type="text">
+                                            <div class="div"></div>
+                                            <input class="btn-submit repostinha2" type="submit" value="Responder">
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                        </div>
+                        <!--ifood-final--->
+                        <!--Dealer Inicio-->
+                        <div class="dealership">
+                            <header>
+                                <h1 onclick="dealerhome()">Sunrise Autos</h1>
+                                <i onclick="dealershipclose()" class="fas fa-sign-out-alt"></i>
+                            </header>
+
+                            <div id="dealer-main">
+                                <ul class="listmain">
+
+                                    <li onclick="listcaropen()">
+                                        <i class="fas icon fa-car"></i>
+                                        <div class="type">
+                                            <h1>Carros</h1>
+                                            <p>Carro para o dia-a-dia.</p>
+                                        </div>
+                                    </li>
+
+                                    <li onclick="listcyclesopen()">
+                                        <i class="fas icon fa-motorcycle"></i>
+                                        <div class="type">
+                                            <h1>Motos</h1>
+                                            <p>Agilidade em duas rodas.</p>
+                                        </div>
+                                    </li>
+
+                                    <li onclick="listtruckopen()" class="leftlist">
+                                        <i class="fas icon fa-truck"></i>
+                                        <div class="type">
+                                            <h1>Caminhões</h1>
+                                            <p>Transporte para empresas.</p>
+                                        </div>
+                                    </li>
+
+                                    <li onclick="listrentopen()" class="rightlist">
+                                        <i class="fas icon fa-car-side"></i>
+                                        <div class="type">
+                                            <h1>Aluguel</h1>
+                                            <p>Aluguéis para eventos.</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div id="cars">
+                                <ul class="listconce">
+                                    <li class="active"><a onclick="carClass('compacts')">Compacts</a></li>
+                                    <li><a onclick="carClass('sedans')">Sedans</a></li>
+                                    <li><a onclick="carClass('muscles')">Muscles</a></li>
+                                    <li><a onclick="carClass('offroads')">Off-Roads</a></li>
+                                    <li><a onclick="carClass('suv')">SUV</a></li>
+                                    <li><a onclick="carClass('sports')">Sports</a></li>
+                                    <li><a onclick="carClass('sportsclassic')">Classic</a></li>
+                                    <li><a onclick="carClass('super')">Super</a></li>
+                                    <li><a onclick="carClass('vans')">Vans</a></li>
+                                    <div id="shadow"></div>
+                                </ul>
+                                <section>
+                                    <ul class="carsList">
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div id="cycles">
+                                <ul class="listconce">
+                                    <h1>Motos</h1>
+                                </ul>
+                                <section>
+                                    <ul class="motosList">
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div id="truck">
+                                <ul class="listconce">
+                                    <h1>Caminhões</h1>
+                                </ul>
+                                <section>
+                                    <ul class="trucksList">
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div id="rent">
+                                <div class="first">
+                                    <h1>Nossos serviços!</h1>
+                                    <p>Com anos de experiencia no mercado, a Sunrise Auto atua também no mercado de alugueis de carro. Seja pra casamento, festa, fazer aquela trilha com os amigos, ou apenas fazer aquele book de fotos maneiro pra postar no instagram. Aqui nós temos os modelos que vai melhor te atender.</p>
+                                </div>
+                                <img src="imgs/dealership/Onibusdefesta.png" alt="">
+                                <div class="second">
+                                    <img src="imgs/dealership/hammer.png" alt="">
+                                    <img src="imgs/dealership/limosine.png" alt="">
+                                    <img src="imgs/dealership/kart1.png" alt="">
+                                    <img src="imgs/dealership/kart2.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--Dealer Final-->
+                        <!--Long Books Inicio-->
+                        <div class="longbooks">
+                            <header>
+                                <div class="container">
+                                    <div class="home-books btn-circle">
+                                        <i onclick="BookHome()" class="fas fa-home"></i>
+                                    </div>
+                                    <h1>Long Books</h1>
+                                    <div class="exit-books btn-circle">
+                                        <i onclick="LongBookClose()" class="fas exitfood fa-sign-out-alt"></i>
+                                    </div>
+                                </div>
+                            </header>
+
+                            <ul class="lib">
+                                <li class="lib-section">
+                                    <ul id="section-one-books" class="lib-section-page">
+
+                                    </ul>
+                                </li>
+                                <li class="lib-section">
+                                    <ul id="section-two-books" class="lib-section-page">
+
+                                    </ul>
+                                </li>
+                                <li class="lib-section">
+                                    <ul class="lib-section-page">
+                                        <li class="lib-section-page-book"></li>
+                                        <li class="lib-section-page-book"></li>
+                                        <li class="lib-section-page-book"></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <section class="book">
+                               <!--  <div class="btn previous"><i class="fas fa-arrow-left"></i></div>
+                                <div class="book-border book_wrapper">
+                                    <div id="mybook" class="book-page">
+                                        <div class="book-page-left">
+                                            
+                                        </div>
+                                        <div class="book-page-right">
+
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class=" btn next"><i class="fas fa-arrow-right"></i></div> -->
+                            
+                                    <!-- Swiper -->
+                                <div class="book-border">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper book-page">
+
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>        
+                            </section>
+
+                        </div>
+                        <!--Long Books Final-->
+
+                        <!--Outlet  Start-->
+                        <div class="outlet">
+                            <div class="outlet-main">
+                                <header>
+                                    <img src="imgs/home/outlet.png" alt="">
+                                    <h1>Long Outlet</h1>
+                                    <div onclick="outletclose()" class="btn-circle">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                    </div>
+                                </header>
+                                <main class="outlet-section">
+                                    <ul class="outlet-section-container outlet-section-list">
+
+                                    </ul>
+                                    <div class="is-coming">EM BREVE</div>
+                                </main>
+                            </div>
+                        </div>
+                        <!--Outlet  Final-->
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <script src="plugins/jquery.mask.js"></script>
+        <script src="script/app.js"></script>
+        <script src="script/apps/ifood.js"></script>
+        <script src="script/apps/dealership.js"></script>
+        <script src="script/apps/books.js"></script>
+        <script src="script/apps/outlet.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                centeredSlides: false,
+                slidesPerGroupSkip: 1,
+                grabCursor: true,
+                keyboard: {
+                enabled: true,
+                },
+                breakpoints: {
+                769: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                },
+                },
+                scrollbar: {
+                el: ".swiper-scrollbar",
+                },
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+            });
+        </script>
+    </body>
+</html>
